@@ -1,317 +1,340 @@
-id,label,n_KW,n_BX,d,color,title
-Aaron Kamm,Aaron Kamm,1,0,1,red,<p><b>Aaron Kamm</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Abhijit Ramalingam,Abhijit Ramalingam,1,0,1,red,<p><b>Abhijit Ramalingam</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Abigail Barr,Abigail Barr,NA,NA,NA,NA,<p><b>Abigail Barr</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Achim Schluter,Achim Schluter,0,0,NA,NA,<p><b>Achim Schluter</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Ada Wossink,Ada Wossink,NA,NA,NA,NA,<p><b>Ada Wossink</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Adam Isen,Adam Isen,1,0,1,red,<p><b>Adam Isen</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Adrian Chadi,Adrian Chadi,NA,NA,NA,NA,<p><b>Adrian Chadi</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Adrian Lupusor,Adrian Lupusor,1,0,1,red,<p><b>Adrian Lupusor</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Ahmed Skali,Ahmed Skali,0,0,NA,NA,<p><b>Ahmed Skali</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Aidin Hajikhameneh,Aidin Hajikhameneh,1,0,1,red,<p><b>Aidin Hajikhameneh</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Alain Cohn,Alain Cohn,NA,NA,NA,NA,<p><b>Alain Cohn</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Alberto Antonioni,Alberto Antonioni,0,1,-1,blue,<p><b>Alberto Antonioni</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Alec N. Sproten,Alec N. Sproten,1,0,1,red,<p><b>Alec N. Sproten</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Alessandro Acquisti,Alessandro Acquisti,1,0,1,red,<p><b>Alessandro Acquisti</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Alex Imas,Alex Imas,NA,NA,NA,NA,<p><b>Alex Imas</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Alex K. Chavez,Alex K. Chavez,0,1,-1,blue,<p><b>Alex K. Chavez</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Alex Nikolsko-Rzhevskyy,Alex Nikolsko-Rzhevskyy,1,0,1,red,<p><b>Alex Nikolsko-Rzhevskyy</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Alexander Vostroknutov,Alexander Vostroknutov,NA,NA,NA,NA,<p><b>Alexander Vostroknutov</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Alice Guerra,Alice Guerra,1,0,1,red,<p><b>Alice Guerra</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Alisa Frik,Alisa Frik,0,0,NA,NA,<p><b>Alisa Frik</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Ananta Neelim,Ananta Neelim,0,0,NA,NA,<p><b>Ananta Neelim</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Andrea Guido,Andrea Guido,0,1,-1,blue,<p><b>Andrea Guido</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Andreas Kappes,Andreas Kappes,1,0,1,red,<p><b>Andreas Kappes</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Andreas Ziegler,Andreas Ziegler,1,0,1,red,<p><b>Andreas Ziegler</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Andrew Hussey,Andrew Hussey,1,0,1,red,<p><b>Andrew Hussey</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Anett John,Anett John,1,0,1,red,<p><b>Anett John</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Angel Sanchez,Angel Sanchez,0,2,-1,blue,<p><b>Angel Sanchez</b><br>Bicchieri = 2<br> Krupka = 0</p>
-Anna Kukla-Gryz,Anna Kukla-Gryz,1,0,1,red,<p><b>Anna Kukla-Gryz</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Anne-Marie Nussberger,Anne-Marie Nussberger,1,0,1,red,<p><b>Anne-Marie Nussberger</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Antonio Nicolò,Antonio Nicolò,0,0,NA,NA,<p><b>Antonio Nicolò</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Anwar Shah,Anwar Shah,1,0,1,red,<p><b>Anwar Shah</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Arno Apffelstaedt,Arno Apffelstaedt,1,0,1,red,<p><b>Arno Apffelstaedt</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Arno Riedl,Arno Riedl,NA,NA,NA,NA,<p><b>Arno Riedl</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Aron Szekely,Aron Szekely,0,1,-1,blue,<p><b>Aron Szekely</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Arthur Schram,Arthur Schram,1,0,1,red,<p><b>Arthur Schram</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Arvid Erlandsson,Arvid Erlandsson,1,0,1,red,<p><b>Arvid Erlandsson</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Åsa Löfgren,Åsa Löfgren,1,0,1,red,<p><b>Åsa Löfgren</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Astrid Matthey,Astrid Matthey,0,1,-1,blue,<p><b>Astrid Matthey</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Azzurra Morreale,Azzurra Morreale,1,1,0,green,<p><b>Azzurra Morreale</b><br>Bicchieri = 1<br> Krupka = 1</p>
-Bachir Kassas,Bachir Kassas,1,0,1,red,<p><b>Bachir Kassas</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Benedikt Werner,Benedikt Werner,1,0,1,red,<p><b>Benedikt Werner</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Benjamin M. Marx,Benjamin M. Marx,1,0,1,red,<p><b>Benjamin M. Marx</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Björn Bartling,Björn Bartling,NA,NA,NA,NA,<p><b>Björn Bartling</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Blaine Robbins,Blaine Robbins,1,0,1,red,<p><b>Blaine Robbins</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Brenda Elizabeth Ryan,Brenda Elizabeth Ryan,0,1,-1,blue,<p><b>Brenda Elizabeth Ryan</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Bryan McCannon,Bryan McCannon,0,1,-1,blue,<p><b>Bryan McCannon</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Byungjoo Choi,Byungjoo Choi,1,0,1,red,<p><b>Byungjoo Choi</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Carlo Gallier,Carlo Gallier,0,0,NA,NA,<p><b>Carlo Gallier</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Carsten Schröder,Carsten Schröder,1,0,1,red,<p><b>Carsten Schröder</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Catherine Eckel,Catherine Eckel,NA,NA,NA,NA,<p><b>Catherine Eckel</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Chris Starmer,Chris Starmer,1,0,1,red,<p><b>Chris Starmer</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Christian Klöckner,Christian Klöckner,1,0,1,red,<p><b>Christian Klöckner</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Christian Lukas Zünd,Christian Lukas Zünd,NA,NA,NA,NA,<p><b>Christian Lukas Zünd</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Christiane Schwieren,Christiane Schwieren,1,1,0,green,<p><b>Christiane Schwieren</b><br>Bicchieri = 1<br> Krupka = 1</p>
-Christine L. Exley,Christine L. Exley,NA,NA,NA,NA,<p><b>Christine L. Exley</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Christoph Engel,Christoph Engel,1,1,0,green,<p><b>Christoph Engel</b><br>Bicchieri = 1<br> Krupka = 1</p>
-Christoph Huber,Christoph Huber,1,0,1,red,<p><b>Christoph Huber</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Christoph Oslislo,Christoph Oslislo,1,0,1,red,<p><b>Christoph Oslislo</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Christoph Rossler,Christoph Rossler,NA,NA,NA,NA,<p><b>Christoph Rossler</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Christopher Starke,Christopher Starke,NA,NA,NA,NA,<p><b>Christopher Starke</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Claire Rimbaud,Claire Rimbaud,1,0,1,red,<p><b>Claire Rimbaud</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Cristina Bicchieri,Cristina Bicchieri,0,5,-1,blue,<p><b>Cristina Bicchieri</b><br>Bicchieri = 5<br> Krupka = 0</p>
-Cyril Brandt,Cyril Brandt,1,0,1,red,<p><b>Cyril Brandt</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Danae Arroyos-Calvera,Danae Arroyos-Calvera,NA,NA,NA,NA,<p><b>Danae Arroyos-Calvera</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Daniel Iragorri-Carter,Daniel Iragorri-Carter,NA,NA,NA,NA,<p><b>Daniel Iragorri-Carter</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Daniel Karell,Daniel Karell,1,0,1,red,<p><b>Daniel Karell</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Daniel Vastfjall,Daniel Vastfjall,1,0,1,red,<p><b>Daniel Vastfjall</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Daniela Saban,Daniela Saban,1,0,1,red,<p><b>Daniela Saban</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Daniele Nosenzo,Daniele Nosenzo,NA,NA,NA,NA,<p><b>Daniele Nosenzo</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Daphne Chang,Daphne Chang,3,0,1,red,<p><b>Daphne Chang</b><br>Bicchieri = 0<br> Krupka = 3</p>
-David A. Taylor,David A. Taylor,1,0,1,red,<p><b>David A. Taylor</b><br>Bicchieri = 0<br> Krupka = 1</p>
-David Rand,David Rand,0,1,-1,blue,<p><b>David Rand</b><br>Bicchieri = 1<br> Krupka = 0</p>
-David Tannenbaum,David Tannenbaum,NA,NA,NA,NA,<p><b>David Tannenbaum</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Denis Tverskoi,Denis Tverskoi,0,1,-1,blue,<p><b>Denis Tverskoi</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Dennis J. Snower,Dennis J. Snower,0,1,-1,blue,<p><b>Dennis J. Snower</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Dimitri Dubois,Dimitri Dubois,1,0,1,red,<p><b>Dimitri Dubois</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Donja Darai,Donja Darai,NA,NA,NA,NA,<p><b>Donja Darai</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Dung Ngoc Le,Dung Ngoc Le,1,0,1,red,<p><b>Dung Ngoc Le</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Edward Lazear,Edward Lazear,0,0,NA,NA,<p><b>Edward Lazear</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Eline de Rooij,Eline de Rooij,NA,NA,NA,NA,<p><b>Eline de Rooij</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Ellen Garbarino,Ellen Garbarino,1,0,1,red,<p><b>Ellen Garbarino</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Erik Gong,Erik Gong,NA,NA,NA,NA,<p><b>Erik Gong</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Erik Kimbrough,Erik Kimbrough,NA,NA,NA,NA,<p><b>Erik Kimbrough</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Erik Wengström,Erik Wengström,2,0,1,red,<p><b>Erik Wengström</b><br>Bicchieri = 0<br> Krupka = 2</p>
-Erin Krupka,Erin Krupka,NA,NA,NA,NA,<p><b>Erin Krupka</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Ernesto Reuben,Ernesto Reuben,NA,NA,NA,NA,<p><b>Ernesto Reuben</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Ernst Fehr,Ernst Fehr,NA,NA,NA,NA,<p><b>Ernst Fehr</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Erte Xiao,Erte Xiao,0,2,-1,blue,<p><b>Erte Xiao</b><br>Bicchieri = 2<br> Krupka = 0</p>
-Eryk Krysowski,Eryk Krysowski,1,1,0,green,<p><b>Eryk Krysowski</b><br>Bicchieri = 1<br> Krupka = 1</p>
-Esteban Freidin,Esteban Freidin,NA,NA,NA,NA,<p><b>Esteban Freidin</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Eugen Dimant,Eugen Dimant,NA,NA,NA,NA,<p><b>Eugen Dimant</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Eugenio Verrina,Eugenio Verrina,1,0,1,red,<p><b>Eugenio Verrina</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Eva Anggraini,Eva Anggraini,0,0,NA,NA,<p><b>Eva Anggraini</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Eva Ranehill,Eva Ranehill,0,0,NA,NA,<p><b>Eva Ranehill</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Eytan Adar,Eytan Adar,1,0,1,red,<p><b>Eytan Adar</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Fabio Galeotti,Fabio Galeotti,1,0,1,red,<p><b>Fabio Galeotti</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Fabio Tufano,Fabio Tufano,NA,NA,NA,NA,<p><b>Fabio Tufano</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Felix Kolle,Felix Kolle,2,1,0.333333333333333,green,<p><b>Felix Kolle</b><br>Bicchieri = 1<br> Krupka = 2</p>
-Felix Noth,Felix Noth,NA,NA,NA,NA,<p><b>Felix Noth</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Florian Diekert,Florian Diekert,NA,NA,NA,NA,<p><b>Florian Diekert</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Florian Timme,Florian Timme,NA,NA,NA,NA,<p><b>Florian Timme</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Floyd Mwansa,Floyd Mwansa,NA,NA,NA,NA,<p><b>Floyd Mwansa</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Folco Panizza,Folco Panizza,1,0,1,red,<p><b>Folco Panizza</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Fortuna Casoria,Fortuna Casoria,0,0,NA,NA,<p><b>Fortuna Casoria</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Francesca Lipari,Francesca Lipari,0,1,-1,blue,<p><b>Francesca Lipari</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Francesco Fallucchi,Francesco Fallucchi,1,0,1,red,<p><b>Francesco Fallucchi</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Francesco Passarelli,Francesco Passarelli,0,0,NA,NA,<p><b>Francesco Passarelli</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Frank Kee,Frank Kee,1,0,1,red,<p><b>Frank Kee</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Fraser Summerfield,Fraser Summerfield,NA,NA,NA,NA,<p><b>Fraser Summerfield</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Gabriel Gertsch,Gabriel Gertsch,1,0,1,red,<p><b>Gabriel Gertsch</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Gabriele Chierchia,Gabriele Chierchia,0,1,-1,blue,<p><b>Gabriele Chierchia</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Gary Bolton,Gary Bolton,0,0,NA,NA,<p><b>Gary Bolton</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Gilles Grolleau,Gilles Grolleau,0,1,-1,blue,<p><b>Gilles Grolleau</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Giorgia Romagnoli,Giorgia Romagnoli,1,0,1,red,<p><b>Giorgia Romagnoli</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Giorgio Coricelli,Giorgio Coricelli,1,0,1,red,<p><b>Giorgio Coricelli</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Giovanna D'Adda,Giovanna D'Adda,NA,NA,NA,NA,<p><b>Giovanna D'Adda</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Giulia Andrighetto,Giulia Andrighetto,0,2,-1,blue,<p><b>Giulia Andrighetto</b><br>Bicchieri = 2<br> Krupka = 0</p>
-Giuseppe Attanasi,Giuseppe Attanasi,1,0,1,red,<p><b>Giuseppe Attanasi</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Giuseppe Dari-Mattiacci,Giuseppe Dari-Mattiacci,0,0,NA,NA,<p><b>Giuseppe Dari-Mattiacci</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Gordon Kraft-Todd,Gordon Kraft-Todd,0,1,-1,blue,<p><b>Gordon Kraft-Todd</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Greg DeAngelo,Greg DeAngelo,0,1,-1,blue,<p><b>Greg DeAngelo</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Guido Tabellini,Guido Tabellini,0,0,NA,NA,<p><b>Guido Tabellini</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Gustav Tinghog,Gustav Tinghog,1,0,1,red,<p><b>Gustav Tinghog</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Guy Kahane,Guy Kahane,1,0,1,red,<p><b>Guy Kahane</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Hande Erkut,Hande Erkut,1,0,1,red,<p><b>Hande Erkut</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Hanna Fromell,Hanna Fromell,NA,NA,NA,NA,<p><b>Hanna Fromell</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Hanna Hoover,Hanna Hoover,NA,NA,NA,NA,<p><b>Hanna Hoover</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Hannes Rusch,Hannes Rusch,NA,NA,NA,NA,<p><b>Hannes Rusch</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Hezhi Chen,Hezhi Chen,0,1,-1,blue,<p><b>Hezhi Chen</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Iftekhar Hasan,Iftekhar Hasan,NA,NA,NA,NA,<p><b>Iftekhar Hasan</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Ignacio Andres Rios,Ignacio Andres Rios,1,0,1,red,<p><b>Ignacio Andres Rios</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Isabel Marcin,Isabel Marcin,1,0,1,red,<p><b>Isabel Marcin</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Israel Waichman,Israel Waichman,NA,NA,NA,NA,<p><b>Israel Waichman</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Ivan Soraperra,Ivan Soraperra,1,0,1,red,<p><b>Ivan Soraperra</b><br>Bicchieri = 0<br> Krupka = 1</p>
-J. Jobu Babin,J. Jobu Babin,1,0,1,red,<p><b>J. Jobu Babin</b><br>Bicchieri = 0<br> Krupka = 1</p>
-James Asher,James Asher,NA,NA,NA,NA,<p><b>James Asher</b><br>Bicchieri = NA<br> Krupka = NA</p>
-James Tremewan,James Tremewan,1,1,0,green,<p><b>James Tremewan</b><br>Bicchieri = 1<br> Krupka = 1</p>
-Jana Cahlíková,Jana Cahlíková,1,0,1,red,<p><b>Jana Cahlíková</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Jana Freundt,Jana Freundt,1,0,1,red,<p><b>Jana Freundt</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Janneke Blijlevens,Janneke Blijlevens,0,0,NA,NA,<p><b>Janneke Blijlevens</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Jeffrey Carpenter,Jeffrey Carpenter,NA,NA,NA,NA,<p><b>Jeffrey Carpenter</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Jennifer M. Murray,Jennifer M. Murray,1,0,1,red,<p><b>Jennifer M. Murray</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Jens Rommel,Jens Rommel,1,0,1,red,<p><b>Jens Rommel</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Jianhong Ma,Jianhong Ma,0,1,-1,blue,<p><b>Jianhong Ma</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Jin Di Zheng,Jin Di Zheng,1,0,1,red,<p><b>Jin Di Zheng</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Jingnan Chena,Jingnan Chena,NA,NA,NA,NA,<p><b>Jingnan Chena</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Joachim Weimann,Joachim Weimann,NA,NA,NA,NA,<p><b>Joachim Weimann</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Joanna McHugh Power,Joanna McHugh Power,1,0,1,red,<p><b>Joanna McHugh Power</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Joanna Tyrowicz,Joanna Tyrowicz,NA,NA,NA,NA,<p><b>Joanna Tyrowicz</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Joanne Peryman,Joanne Peryman,0,0,NA,NA,<p><b>Joanne Peryman</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Johannes König,Johannes König,1,0,1,red,<p><b>Johannes König</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Johannes Lohse,Johannes Lohse,NA,NA,NA,NA,<p><b>Johannes Lohse</b><br>Bicchieri = NA<br> Krupka = NA</p>
-John Thrasher,John Thrasher,1,0,1,red,<p><b>John Thrasher</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Jörg Oechssler,Jörg Oechssler,1,0,1,red,<p><b>Jörg Oechssler</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Joschka Waibel,Joschka Waibel,NA,NA,NA,NA,<p><b>Joschka Waibel</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Joseph Luomba,Joseph Luomba,NA,NA,NA,NA,<p><b>Joseph Luomba</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Joseph Vecci,Joseph Vecci,0,0,NA,NA,<p><b>Joseph Vecci</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Joshua Miller,Joshua Miller,NA,NA,NA,NA,<p><b>Joshua Miller</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Judd Kessler,Judd Kessler,NA,NA,NA,NA,<p><b>Judd Kessler</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Julian Savulescu,Julian Savulescu,1,0,1,red,<p><b>Julian Savulescu</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Julie Chytilová,Julie Chytilová,1,0,1,red,<p><b>Julie Chytilová</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Jürgen Huber,Jürgen Huber,1,0,1,red,<p><b>Jürgen Huber</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Kai Barron,Kai Barron,1,0,1,red,<p><b>Kai Barron</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Kate Farrow,Kate Farrow,0,1,-1,blue,<p><b>Kate Farrow</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Katherine B. Coffman,Katherine B. Coffman,1,0,1,red,<p><b>Katherine B. Coffman</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Katherine Nelson,Katherine Nelson,0,0,NA,NA,<p><b>Katherine Nelson</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Kathrin Dengler-Roscher,Kathrin Dengler-Roscher,1,0,1,red,<p><b>Kathrin Dengler-Roscher</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Kay J. Thomsson,Kay J. Thomsson,1,0,1,red,<p><b>Kay J. Thomsson</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Klaus Abbink,Klaus Abbink,NA,NA,NA,NA,<p><b>Klaus Abbink</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Kristina Czura,Kristina Czura,1,0,1,red,<p><b>Kristina Czura</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Kristóf Madarász,Kristóf Madarász,NA,NA,NA,NA,<p><b>Kristóf Madarász</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Kunal Sen,Kunal Sen,0,0,NA,NA,<p><b>Kunal Sen</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Lars Garn Hansen,Lars Garn Hansen,1,0,1,red,<p><b>Lars Garn Hansen</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Lasse Loft,Lasse Loft,1,0,1,red,<p><b>Lasse Loft</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Lata Gangadharan,Lata Gangadharan,NA,NA,NA,NA,<p><b>Lata Gangadharan</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Lea Petters,Lea Petters,0,0,NA,NA,<p><b>Lea Petters</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Lena Tonzer,Lena Tonzer,NA,NA,NA,NA,<p><b>Lena Tonzer</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Leonard Hoeft,Leonard Hoeft,1,0,1,red,<p><b>Leonard Hoeft</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Leonie Gerhards,Leonie Gerhards,1,0,1,red,<p><b>Leonie Gerhards</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Levent Neyse,Levent Neyse,1,0,1,red,<p><b>Levent Neyse</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Li Hao,Li Hao,NA,NA,NA,NA,<p><b>Li Hao</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Lisa Spantig,Lisa Spantig,1,0,1,red,<p><b>Lisa Spantig</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Lise Vesterlund,Lise Vesterlund,NA,NA,NA,NA,<p><b>Lise Vesterlund</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Lisette Ibanez,Lisette Ibanez,0,1,-1,blue,<p><b>Lisette Ibanez</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Lorenzo Sacconi,Lorenzo Sacconi,NA,NA,NA,NA,<p><b>Lorenzo Sacconi</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Louise Grogan,Louise Grogan,NA,NA,NA,NA,<p><b>Louise Grogan</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Luca Tummolini,Luca Tummolini,0,1,-1,blue,<p><b>Luca Tummolini</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Luigi Mittone,Luigi Mittone,1,1,0,green,<p><b>Luigi Mittone</b><br>Bicchieri = 1<br> Krupka = 1</p>
-Marco Catola,Marco Catola,NA,NA,NA,NA,<p><b>Marco Catola</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Marco Fabbri,Marco Fabbri,0,0,NA,NA,<p><b>Marco Fabbri</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Marco Faillo,Marco Faillo,NA,NA,NA,NA,<p><b>Marco Faillo</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Marco Palma,Marco Palma,2,0,1,red,<p><b>Marco Palma</b><br>Bicchieri = 0<br> Krupka = 2</p>
-Marian Panganiban,Marian Panganiban,1,0,1,red,<p><b>Marian Panganiban</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Marie Claire Villeval,Marie Claire Villeval,3,0,1,red,<p><b>Marie Claire Villeval</b><br>Bicchieri = 0<br> Krupka = 3</p>
-Marina Schröder,Marina Schröder,0,0,NA,NA,<p><b>Marina Schröder</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Mario Mechtel,Mario Mechtel,NA,NA,NA,NA,<p><b>Mario Mechtel</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Mario Paolucci,Mario Paolucci,0,1,-1,blue,<p><b>Mario Paolucci</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Marius Alt,Marius Alt,0,0,NA,NA,<p><b>Marius Alt</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Mark Bernard,Mark Bernard,NA,NA,NA,NA,<p><b>Mark Bernard</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Mark Pickup,Mark Pickup,NA,NA,NA,NA,<p><b>Mark Pickup</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Markus Sass,Markus Sass,NA,NA,NA,NA,<p><b>Markus Sass</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Marleen Dekker,Marleen Dekker,NA,NA,NA,NA,<p><b>Marleen Dekker</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Marleen Troost,Marleen Troost,1,0,1,red,<p><b>Marleen Troost</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Marta Serra-Garcia,Marta Serra-Garcia,1,0,1,red,<p><b>Marta Serra-Garcia</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Martin Dufwenberg,Martin Dufwenberg,0,0,NA,NA,<p><b>Martin Dufwenberg</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Martin Schonger,Martin Schonger,1,0,1,red,<p><b>Martin Schonger</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Martin Sefton,Martin Sefton,2,0,1,red,<p><b>Martin Sefton</b><br>Bicchieri = 0<br> Krupka = 2</p>
-Matteo Ploner,Matteo Ploner,2,0,1,red,<p><b>Matteo Ploner</b><br>Bicchieri = 0<br> Krupka = 2</p>
-Matteo Rizzolli,Matteo Rizzolli,0,1,-1,blue,<p><b>Matteo Rizzolli</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Matthias Lang,Matthias Lang,1,0,1,red,<p><b>Matthias Lang</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Maximiliano Senci,Maximiliano Senci,0,1,-1,blue,<p><b>Maximiliano Senci</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Michael Kurschilgen,Michael Kurschilgen,1,0,1,red,<p><b>Michael Kurschilgen</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Michael Vlassopoulos,Michael Vlassopoulos,NA,NA,NA,NA,<p><b>Michael Vlassopoulos</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Michal Bauer,Michal Bauer,1,0,1,red,<p><b>Michal Bauer</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Michal Krawczyk,Michal Krawczyk,NA,NA,NA,NA,<p><b>Michal Krawczyk</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Michalis Drouvelis,Michalis Drouvelis,NA,NA,NA,NA,<p><b>Michalis Drouvelis</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Michel André Maréchal,Michel André Maréchal,NA,NA,NA,NA,<p><b>Michel André Maréchal</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Miguel Fonseca,Miguel Fonseca,NA,NA,NA,NA,<p><b>Miguel Fonseca</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Ming Jiang,Ming Jiang,1,0,1,red,<p><b>Ming Jiang</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Molla Ubeda,Molla Ubeda,0,1,-1,blue,<p><b>Molla Ubeda</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Molly Crockett,Molly Crockett,1,0,1,red,<p><b>Molly Crockett</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Moya Miller,Moya Miller,0,1,-1,blue,<p><b>Moya Miller</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Muriel Niederle,Muriel Niederle,NA,NA,NA,NA,<p><b>Muriel Niederle</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Nadira Faber,Nadira Faber,1,0,1,red,<p><b>Nadira Faber</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Natalia Gregorietti,Natalia Gregorietti,0,1,-1,blue,<p><b>Natalia Gregorietti</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Natalia Montinari,Natalia Montinari,1,0,1,red,<p><b>Natalia Montinari</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Nicola Pavanini,Nicola Pavanini,NA,NA,NA,NA,<p><b>Nicola Pavanini</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Nikos Nikiforakis,Nikos Nikiforakis,1,0,1,red,<p><b>Nikos Nikiforakis</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Nils Köbis,Nils Köbis,NA,NA,NA,NA,<p><b>Nils Köbis</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Nishita Sinha,Nishita Sinha,NA,NA,NA,NA,<p><b>Nishita Sinha</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Nives Della Valle,Nives Della Valle,1,0,1,red,<p><b>Nives Della Valle</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Nora Szech,Nora Szech,1,0,1,red,<p><b>Nora Szech</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Olga L. Sarmiento,Olga L. Sarmiento,1,0,1,red,<p><b>Olga L. Sarmiento</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Oluwagbemiga Ojumu,Oluwagbemiga Ojumu,NA,NA,NA,NA,<p><b>Oluwagbemiga Ojumu</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Peilu Zhang,Peilu Zhang,1,0,1,red,<p><b>Peilu Zhang</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Per A. Andersson,Per A. Andersson,1,0,1,red,<p><b>Per A. Andersson</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Perry Ferrell,Perry Ferrell,0,1,-1,blue,<p><b>Perry Ferrell</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Pietro Guarnieri,Pietro Guarnieri,NA,NA,NA,NA,<p><b>Pietro Guarnieri</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Prasenjit Banerjee,Prasenjit Banerjee,NA,NA,NA,NA,<p><b>Prasenjit Banerjee</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Pushkar Maitra,Pushkar Maitra,0,0,NA,NA,<p><b>Pushkar Maitra</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Rajnish Kumar,Rajnish Kumar,1,0,1,red,<p><b>Rajnish Kumar</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Rebecca McDonald,Rebecca McDonald,NA,NA,NA,NA,<p><b>Rebecca McDonald</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Ritwik Banerjee,Ritwik Banerjee,NA,NA,NA,NA,<p><b>Ritwik Banerjee</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Robert Böhm,Robert Böhm,1,0,1,red,<p><b>Robert Böhm</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Robert Hoffmann,Robert Hoffmann,0,0,NA,NA,<p><b>Robert Hoffmann</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Robert Schmidt,Robert Schmidt,1,0,1,red,<p><b>Robert Schmidt</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Robert Slonim,Robert Slonim,1,0,1,red,<p><b>Robert Slonim</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Robert Stüber,Robert Stüber,1,0,1,red,<p><b>Robert Stüber</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Roberto Weber,Roberto Weber,NA,NA,NA,NA,<p><b>Roberto Weber</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Rodrigo Moro,Rodrigo Moro,NA,NA,NA,NA,<p><b>Rodrigo Moro</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Roel van Veldhuizen,Roel van Veldhuizen,1,0,1,red,<p><b>Roel van Veldhuizen</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Roy Chen,Roy Chen,2,0,1,red,<p><b>Roy Chen</b><br>Bicchieri = 0<br> Krupka = 2</p>
-Rupayan Pal,Rupayan Pal,NA,NA,NA,NA,<p><b>Rupayan Pal</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Rustam Romaniuc,Rustam Romaniuc,1,0,1,red,<p><b>Rustam Romaniuc</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Ruth Beer,Ruth Beer,1,0,1,red,<p><b>Ruth Beer</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Ruth F. Hunter,Ruth F. Hunter,1,0,1,red,<p><b>Ruth F. Hunter</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Sabrina Jeworrek,Sabrina Jeworrek,NA,NA,NA,NA,<p><b>Sabrina Jeworrek</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Sandip Mitra,Sandip Mitra,0,0,NA,NA,<p><b>Sandip Mitra</b><br>Bicchieri = 0<br> Krupka = 0</p>
-SangHyun Lee,SangHyun Lee,1,0,1,red,<p><b>SangHyun Lee</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Sara Elisa Kettner,Sara Elisa Kettner,0,1,-1,blue,<p><b>Sara Elisa Kettner</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Sascha Behnk,Sascha Behnk,NA,NA,NA,NA,<p><b>Sascha Behnk</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Sergey Gavrilets,Sergey Gavrilets,0,1,-1,blue,<p><b>Sergey Gavrilets</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Seungjun Ahn,Seungjun Ahn,1,0,1,red,<p><b>Seungjun Ahn</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Sharon Sanchez-Franco,Sharon Sanchez-Franco,1,0,1,red,<p><b>Sharon Sanchez-Franco</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Shaun Grimshaw,Shaun Grimshaw,NA,NA,NA,NA,<p><b>Shaun Grimshaw</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Silvia Sonderegger,Silvia Sonderegger,0,1,-1,blue,<p><b>Silvia Sonderegger</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Simeon Schudy,Simeon Schudy,1,0,1,red,<p><b>Simeon Schudy</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Simon Bartke,Simon Bartke,0,1,-1,blue,<p><b>Simon Bartke</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Simon Columbus,Simon Columbus,1,0,1,red,<p><b>Simon Columbus</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Simon Felgendreher,Simon Felgendreher,1,0,1,red,<p><b>Simon Felgendreher</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Simon Gachter,Simon Gachter,2,0,1,red,<p><b>Simon Gachter</b><br>Bicchieri = 0<br> Krupka = 2</p>
-Simon Siegenthaler,Simon Siegenthaler,1,0,1,red,<p><b>Simon Siegenthaler</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Simone D?Alessandro,Simone D?Alessandro,NA,NA,NA,NA,<p><b>Simone D?Alessandro</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Simone Quercia,Simone Quercia,1,1,0,green,<p><b>Simone Quercia</b><br>Bicchieri = 1<br> Krupka = 1</p>
-Stefan Bechtold,Stefan Bechtold,1,0,1,red,<p><b>Stefan Bechtold</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Stefan Gehrig,Stefan Gehrig,1,0,1,red,<p><b>Stefan Gehrig</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Stefania Ottone,Stefania Ottone,NA,NA,NA,NA,<p><b>Stefania Ottone</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Stepan Vesely,Stepan Vesely,2,0,1,red,<p><b>Stepan Vesely</b><br>Bicchieri = 0<br> Krupka = 2</p>
-Stephan Tontrup,Stephan Tontrup,0,1,-1,blue,<p><b>Stephan Tontrup</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Stephen Burks,Stephen Burks,1,0,1,red,<p><b>Stephen Burks</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Steven J. Bosworth,Steven J. Bosworth,0,1,-1,blue,<p><b>Steven J. Bosworth</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Sthephen Leider,Sthephen Leider,1,0,1,red,<p><b>Sthephen Leider</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Subha Mani,Subha Mani,1,0,1,red,<p><b>Subha Mani</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Swee-Hoon Chuah,Swee-Hoon Chuah,0,0,NA,NA,<p><b>Swee-Hoon Chuah</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Tanya Rosenblat,Tanya Rosenblat,NA,NA,NA,NA,<p><b>Tanya Rosenblat</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Tarun Jain,Tarun Jain,0,0,NA,NA,<p><b>Tarun Jain</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Tatyana Zhuravleva,Tatyana Zhuravleva,2,0,1,red,<p><b>Tatyana Zhuravleva</b><br>Bicchieri = 0<br> Krupka = 2</p>
-Theo Offerman,Theo Offerman,1,0,1,red,<p><b>Theo Offerman</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Thomas Busera,Thomas Busera,0,0,NA,NA,<p><b>Thomas Busera</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Tia Linda Zuze,Tia Linda Zuze,NA,NA,NA,NA,<p><b>Tia Linda Zuze</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Tillmann Eymess,Tillmann Eymess,NA,NA,NA,NA,<p><b>Tillmann Eymess</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Tim Friehe,Tim Friehe,NA,NA,NA,NA,<p><b>Tim Friehe</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Timo Goeschl,Timo Goeschl,0,1,-1,blue,<p><b>Timo Goeschl</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Tobias Gesche,Tobias Gesche,1,0,1,red,<p><b>Tobias Gesche</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Tobias Regner,Tobias Regner,0,1,-1,blue,<p><b>Tobias Regner</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Toby Handfield,Toby Handfield,1,0,1,red,<p><b>Toby Handfield</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Toke Fosgaard,Toke Fosgaard,1,0,1,red,<p><b>Toke Fosgaard</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Tom Lane,Tom Lane,NA,NA,NA,NA,<p><b>Tom Lane</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Tomá? ?elinský,Tomá? ?elinský,1,0,1,red,<p><b>Tomá? ?elinský</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Trudy Owens,Trudy Owens,NA,NA,NA,NA,<p><b>Trudy Owens</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Tushi Baul,Tushi Baul,NA,NA,NA,NA,<p><b>Tushi Baul</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Ulrich Schmidt,Ulrich Schmidt,0,0,NA,NA,<p><b>Ulrich Schmidt</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Ulrike Malmendier,Ulrike Malmendier,0,0,NA,NA,<p><b>Ulrike Malmendier</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Uri Gneezy,Uri Gneezy,NA,NA,NA,NA,<p><b>Uri Gneezy</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Utteeyo Dasgupta,Utteeyo Dasgupta,1,0,1,red,<p><b>Utteeyo Dasgupta</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Valentina Maggian,Valentina Maggian,1,0,1,red,<p><b>Valentina Maggian</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Valerio Prohnitchi,Valerio Prohnitchi,1,0,1,red,<p><b>Valerio Prohnitchi</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Vanessa Mertins,Vanessa Mertins,NA,NA,NA,NA,<p><b>Vanessa Mertins</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Vegard Iversen,Vegard Iversen,0,0,NA,NA,<p><b>Vegard Iversen</b><br>Bicchieri = 0<br> Krupka = 0</p>
-Veronica Pizziol,Veronica Pizziol,NA,NA,NA,NA,<p><b>Veronica Pizziol</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Wladislaw Mill,Wladislaw Mill,1,0,1,red,<p><b>Wladislaw Mill</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Wojciech Hardy,Wojciech Hardy,NA,NA,NA,NA,<p><b>Wojciech Hardy</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Yagiz Özdemir,Yagiz Özdemir,NA,NA,NA,NA,<p><b>Yagiz Özdemir</b><br>Bicchieri = NA<br> Krupka = NA</p>
-Yinjunjie Zhang,Yinjunjie Zhang,1,0,1,red,<p><b>Yinjunjie Zhang</b><br>Bicchieri = 0<br> Krupka = 1</p>
-Zhijia Zeng,Zhijia Zeng,0,1,-1,blue,<p><b>Zhijia Zeng</b><br>Bicchieri = 1<br> Krupka = 0</p>
-Zvonimir Ba?ic,Zvonimir Ba?ic,1,0,1,red,<p><b>Zvonimir Ba?ic</b><br>Bicchieri = 0<br> Krupka = 1</p>
+"id"
+"Erin Krupka"
+"Simon Gachter"
+"Daniele Nosenzo"
+"Erik Kimbrough"
+"Uri Gneezy"
+"Alex Imas"
+"Jeffrey Carpenter"
+"Stephen Burks"
+"Sthephen Leider"
+"Christine L. Exley"
+"Muriel Niederle"
+"Alain Cohn"
+"Michel André Maréchal"
+"David Tannenbaum"
+"Lata Gangadharan"
+"Tarun Jain"
+"Pushkar Maitra"
+"Leonie Gerhards"
+"Giovanna D'Adda"
+"Donja Darai"
+"Nicola Pavanini"
+"Hande Erkut"
+"Abigail Barr"
+"Tom Lane"
+"Stepan Vesely"
+"Utteeyo Dasgupta"
+"Michal Bauer"
+"Jana Cahlíková"
+"Julie Chytilová"
+"Daphne Chang"
+"Eytan Adar"
+"Nikos Nikiforakis"
+"Jörg Oechssler"
+"Klaus Abbink"
+"Toby Handfield"
+"Michalis Drouvelis"
+"Andreas Kappes"
+"Anne-Marie Nussberger"
+"Nadira Faber"
+"Guy Kahane"
+"Julian Savulescu"
+"Simon Felgendreher"
+"Roy Chen"
+"Ellen Garbarino"
+"Robert Slonim"
+"Kay J. Thomsson"
+"Michal Krawczyk"
+"Joanna Tyrowicz"
+"Anna Kukla-Gryz"
+"Björn Bartling"
+"Cristina Bicchieri"
+"Eugen Dimant"
+"Gary Bolton"
+"Giuseppe Attanasi"
+"Claire Rimbaud"
+"Wojciech Hardy"
+"Nives Della Valle"
+"Joshua Miller"
+"Marco Faillo"
+"Matteo Rizzolli"
+"Timo Goeschl"
+"Sara Elisa Kettner"
+"Johannes Lohse"
+"Mark Bernard"
+"Ernesto Reuben"
+"Simon Bartke"
+"Steven J. Bosworth"
+"Dennis J. Snower"
+"Aidin Hajikhameneh"
+"Louise Grogan"
+"Lasse Loft"
+"Stefan Gehrig"
+"Dung Ngoc Le"
+"Johannes König"
+"Levent Neyse"
+"Folco Panizza"
+"Alexander Vostroknutov"
+"Felix Kolle"
+"Kathrin Dengler-Roscher"
+"Natalia Montinari"
+"Marian Panganiban"
+"Matteo Ploner"
+"Seungjun Ahn"
+"Byungjoo Choi"
+"Kai Barron"
+"Robert Stüber"
+"Nils Köbis"
+"Marleen Troost"
+"Cyril Brandt"
+"Arthur Schram"
+"Jin Di Zheng"
+"Mark Pickup"
+"Marius Alt"
+"Carlo Gallier"
+"Achim Schluter"
+"Katherine Nelson"
+"Ruth Beer"
+"Ignacio Andres Rios"
+"Markus Sass"
+"Florian Timme"
+"Michael Kurschilgen"
+"Francesco Fallucchi"
+"Leonard Hoeft"
+"Wladislaw Mill"
+"Christoph Engel"
+"Luigi Mittone"
+"Eryk Krysowski"
+"Hanna Fromell"
+"Trudy Owens"
+"Ritwik Banerjee"
+"Tushi Baul"
+"Bachir Kassas"
+"J. Jobu Babin"
+"Andrew Hussey"
+"Alex Nikolsko-Rzhevskyy"
+"Peilu Zhang"
+"Yinjunjie Zhang"
+"Fabio Galeotti"
+"Valentina Maggian"
+"Kristina Czura"
+"Anett John"
+"Prasenjit Banerjee"
+"Vegard Iversen"
+"Sandip Mitra"
+"Antonio Nicolò"
+"Adam Isen"
+"Robert Schmidt"
+"Christiane Schwieren"
+"Alisa Frik"
+"Katherine B. Coffman"
+"Marleen Dekker"
+"Floyd Mwansa"
+"Per A. Andersson"
+"Arvid Erlandsson"
+"Daniel Vastfjall"
+"Matthias Lang"
+"Blaine Robbins"
+"Aaron Kamm"
+"Daniel Karell"
+"Rustam Romaniuc"
+"Dimitri Dubois"
+"Adrian Lupusor"
+"Iftekhar Hasan"
+"Felix Noth"
+"Jennifer M. Murray"
+"Abhijit Ramalingam"
+"Rajnish Kumar"
+"Joanna McHugh Power"
+"Sharon Sanchez-Franco"
+"Olga L. Sarmiento"
+"Frank Kee"
+"Toke Fosgaard"
+"Lars Garn Hansen"
+"Christoph Rossler"
+"Hannes Rusch"
+"Robert Hoffmann"
+"Janneke Blijlevens"
+"Swee-Hoon Chuah"
+"Ananta Neelim"
+"Joanne Peryman"
+"Andreas Ziegler"
+"Giorgia Romagnoli"
+"Christoph Huber"
+"Giuseppe Dari-Mattiacci"
+"Fortuna Casoria"
+"Stefan Bechtold"
+"Gabriel Gertsch"
+"Lea Petters"
+"Marta Serra-Garcia"
+"Zvonimir Bašic"
+"Maximiliano Senci"
+"Brenda Elizabeth Ryan"
+"Natalia Gregorietti"
+"Danae Arroyos-Calvera"
+"Sabrina Jeworrek"
+"Vanessa Mertins"
+"Jingnan Chena"
+"Miguel Fonseca"
+"Rupayan Pal"
+"Ada Wossink"
+"Thomas Busera"
+"Eva Ranehill"
+"Arno Apffelstaedt"
+"Jana Freundt"
+"Marco Catola"
+"Simone D’Alessandro"
+"Pietro Guarnieri"
+"Erte Xiao"
+"Stefania Ottone"
+"Daniel Iragorri-Carter"
+"Astrid Matthey"
+"Martin Dufwenberg"
+"Francesco Passarelli"
+"Greg DeAngelo"
+"Perry Ferrell"
+"Sascha Behnk"
+"Li Hao"
+"Hezhi Chen"
+"Zhijia Zeng"
+"Gordon Kraft-Todd"
+"Kate Farrow"
+"Gilles Grolleau"
+"Moya Miller"
+"Florian Diekert"
+"Tillmann Eymess"
+"Joseph Luomba"
+"Alex K. Chavez"
+"Esteban Freidin"
+"Ernst Fehr"
+"Adrian Chadi"
+"Mario Mechtel"
+"Simon Columbus"
+"Catherine Eckel"
+"Hanna Hoover"
+"Oluwagbemiga Ojumu"
+"Tanya Rosenblat"
+"Nishita Sinha"
+"Alice Guerra"
+"Edward Lazear"
+"Ulrike Malmendier"
+"Gerben A van Kleef"
+"Aron Szekely"
+"Francesca Lipari"
+"Alberto Antonioni"
+"Mario Paolucci"
+"Angel Sanchez"
+"Luca Tummolini"
+"Denis Tverskoi"
+"Andrea Guido"
+"Giulia Andrighetto"
+"Roberto Weber"
+"Martin Sefton"
+"Kristóf Madarász"
+"Erik Gong"
+"Ming Jiang"
+"Lise Vesterlund"
+"Christian Lukas Zünd"
+"Joseph Vecci"
+"Christian Klöckner"
+"Subha Mani"
+"Tomáš Želinský"
+"Alessandro Acquisti"
+"Anwar Shah"
+"John Thrasher"
+"Molly Crockett"
+"Åsa Löfgren"
+"Marie Claire Villeval"
+"Yagiz Özdemir"
+"Ulrich Schmidt"
+"Judd Kessler"
+"Stephan Tontrup"
+"Arno Riedl"
+"Gabriele Chierchia"
+"Fraser Summerfield"
+"Jens Rommel"
+"Carsten Schröder"
+"Erik Wengström"
+"Giorgio Coricelli"
+"Chris Starmer"
+"Benedikt Werner"
+"SangHyun Lee"
+"Roel van Veldhuizen"
+"Ivan Soraperra"
+"Tatyana Zhuravleva"
+"Eline de Rooij"
+"Eva Anggraini"
+"Tobias Gesche"
+"Daniela Saban"
+"Joachim Weimann"
+"Isabel Marcin"
+"Azzurra Morreale"
+"James Tremewan"
+"Fabio Tufano"
+"Marco Palma"
+"David A. Taylor"
+"Lisa Spantig"
+"Kunal Sen"
+"Benjamin M. Marx"
+"Alec N. Sproten"
+"Tia Linda Zuze"
+"Gustav Tinghog"
+"Simeon Schudy"
+"Simon Siegenthaler"
+"Valerio Prohnitchi"
+"Lena Tonzer"
+"Ruth F. Hunter"
+"Tim Friehe"
+"Ahmed Skali"
+"Theo Offerman"
+"Jürgen Huber"
+"Marco Fabbri"
+"Martin Schonger"
+"Marina Schröder"
+"Nora Szech"
+"Eugenio Verrina"
+"Rebecca McDonald"
+"Michael Vlassopoulos"
+"Shaun Grimshaw"
+"James Asher"
+"Joschka Waibel"
+"Christoph Oslislo"
+"Veronica Pizziol"
+"Lorenzo Sacconi"
+"Christopher Starke"
+"Tobias Regner"
+"Guido Tabellini"
+"Bryan McCannon"
+"Jianhong Ma"
+"David Rand"
+"Silvia Sonderegger"
+"Lisette Ibanez"
+"Molla Ubeda"
+"Israel Waichman"
+"Rodrigo Moro"
+"Simone Quercia"
+"Robert Böhm"
+"Rick K. Wilson"
+"Shaul Shalvi"
+"Sergey Gavrilets"
+"Sigve Tjøtta"
+"Silvia Fernandez Castro"
+"Mario Scharfbillig"
+"Michela Boldrini"
+"Vasileios Kotsidis"
+"Felix Klimm"
+"Claire Cullen"
+"Ivo Schurtenberger"
+"Benjamin Hausinger"
+"Nina Serdarevic"
+"Christian König-Kersting"
+"Kamilla Haworth Buchter"
+"Nan Zhang"
+"Trevor Hannesson Kvaran"
+"Iryna Momotenko"
+"Jeffrey R. Dewitt"
+"Robert Mayo"
+"Jon Reiersen"
+"Stefan Grimm"
+"John List"

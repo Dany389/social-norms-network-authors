@@ -1,4 +1,4 @@
-# script for network analysis
+# script for generating networks from raw data
 
 library(igraph)
 library(tidyverse)
@@ -28,10 +28,13 @@ SplitAuthors <- sapply(authors_n$New_authors, strsplit, split = "--", fixed = TR
 AuthorCombinations <- sapply(SplitAuthors,function(x){combn(unlist(x),m = 2)}) # compute all poss. combinats. among co-authors
 AuthorEdges <- rapply(AuthorCombinations,unlist) # transform matrix into list
 names(AuthorEdges) <- NULL
-AuthorEdges <- trimws(AuthorEdges)
-AuthorGraph <- graph(AuthorEdges, directed = FALSE) # igraph - we input the edge list (taken two by two)
+Edges <- data.frame(matrix(trimws(AuthorEdges), ncol=2, byrow=T)); colnames(Edges)=c("from","to")
+colnames(Edges) <- c("from", "to")
+Nodes <- data.frame(id=unique(c(unique(Edges$from),(unique(Edges$to)), unique(authors_solo$Authors))))
+#AuthorGraph <- graph(AuthorEdges, directed = FALSE) # igraph - we input the edge list (taken two by two)
 
-
+write.csv(Edges, "edges.csv", row.names = F)
+write.csv(Nodes, "nodes.csv", row.names = F)
 
 ####################################################
 # method KW

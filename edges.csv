@@ -1,555 +1,555 @@
-from,to
-Erin Krupka,Roberto Weber
-Simon Gachter,Daniele Nosenzo
-Simon Gachter,Martin Sefton
-Daniele Nosenzo,Martin Sefton
-Erik Kimbrough,Alexander Vostroknutov
-Uri Gneezy,Alex Imas
-Uri Gneezy,Kristóf Madarász
-Alex Imas,Kristóf Madarász
-Jeffrey Carpenter,Erik Gong
-Stephen Burks,Erin Krupka
-Erin Krupka,Sthephen Leider
-Erin Krupka,Ming Jiang
-Sthephen Leider,Ming Jiang
-Christine L. Exley,Muriel Niederle
-Christine L. Exley,Lise Vesterlund
-Muriel Niederle,Lise Vesterlund
-Alain Cohn,Michel André Maréchal
-Alain Cohn,David Tannenbaum
-Alain Cohn,Christian Lukas Zünd
-Michel André Maréchal,David Tannenbaum
-Michel André Maréchal,Christian Lukas Zünd
-David Tannenbaum,Christian Lukas Zünd
-Lata Gangadharan,Tarun Jain
-Lata Gangadharan,Pushkar Maitra
-Lata Gangadharan,Joseph Vecci
-Tarun Jain,Pushkar Maitra
-Tarun Jain,Joseph Vecci
-Pushkar Maitra,Joseph Vecci
-Simon Gachter,Leonie Gerhards
-Simon Gachter,Daniele Nosenzo
-Leonie Gerhards,Daniele Nosenzo
-Giovanna D'Adda,Donja Darai
-Giovanna D'Adda,Nicola Pavanini
-Giovanna D'Adda,Roberto Weber
-Donja Darai,Nicola Pavanini
-Donja Darai,Roberto Weber
-Nicola Pavanini,Roberto Weber
-Hande Erkut,Daniele Nosenzo
-Hande Erkut,Martin Sefton
-Daniele Nosenzo,Martin Sefton
-Abigail Barr,Tom Lane
-Abigail Barr,Daniele Nosenzo
-Tom Lane,Daniele Nosenzo
-Stepan Vesely,Christian Klöckner
-Utteeyo Dasgupta,Subha Mani
-Michal Bauer,Jana Cahlíková
-Michal Bauer,Julie Chytilová
-Michal Bauer,Tomáš Želinský
-Jana Cahlíková,Julie Chytilová
-Jana Cahlíková,Tomáš Želinský
-Julie Chytilová,Tomáš Želinský
-Daphne Chang,Erin Krupka
-Daphne Chang,Eytan Adar
-Daphne Chang,Alessandro Acquisti
-Erin Krupka,Eytan Adar
-Erin Krupka,Alessandro Acquisti
-Eytan Adar,Alessandro Acquisti
-Nikos Nikiforakis,Jörg Oechssler
-Nikos Nikiforakis,Anwar Shah
-Jörg Oechssler,Anwar Shah
-Klaus Abbink,Lata Gangadharan
-Klaus Abbink,Toby Handfield
-Klaus Abbink,John Thrasher
-Lata Gangadharan,Toby Handfield
-Lata Gangadharan,John Thrasher
-Toby Handfield,John Thrasher
-Giovanna D'Adda,Michalis Drouvelis
-Giovanna D'Adda,Daniele Nosenzo
-Michalis Drouvelis,Daniele Nosenzo
-Andreas Kappes,Anne-Marie Nussberger
-Andreas Kappes,Nadira Faber
-Andreas Kappes,Guy Kahane
-Andreas Kappes,Julian Savulescu
-Andreas Kappes,Molly Crockett
-Anne-Marie Nussberger,Nadira Faber
-Anne-Marie Nussberger,Guy Kahane
-Anne-Marie Nussberger,Julian Savulescu
-Anne-Marie Nussberger,Molly Crockett
-Nadira Faber,Guy Kahane
-Nadira Faber,Julian Savulescu
-Nadira Faber,Molly Crockett
-Guy Kahane,Julian Savulescu
-Guy Kahane,Molly Crockett
-Julian Savulescu,Molly Crockett
-Simon Felgendreher,Åsa Löfgren
-Daphne Chang,Roy Chen
-Daphne Chang,Erin Krupka
-Roy Chen,Erin Krupka
-Ellen Garbarino,Robert Slonim
-Ellen Garbarino,Marie Claire Villeval
-Robert Slonim,Marie Claire Villeval
-Kay J. Thomsson,Alexander Vostroknutov
-Michal Krawczyk,Joanna Tyrowicz
-Michal Krawczyk,Anna Kukla-Gryz
-Michal Krawczyk,Wojciech Hardy
-Joanna Tyrowicz,Anna Kukla-Gryz
-Joanna Tyrowicz,Wojciech Hardy
-Anna Kukla-Gryz,Wojciech Hardy
-Björn Bartling,Yagiz Özdemir
-Cristina Bicchieri,Eugen Dimant
-Cristina Bicchieri,Simon Gachter
-Cristina Bicchieri,Daniele Nosenzo
-Eugen Dimant,Simon Gachter
-Eugen Dimant,Daniele Nosenzo
-Simon Gachter,Daniele Nosenzo
-Gary Bolton,Eugen Dimant
-Gary Bolton,Ulrich Schmidt
-Eugen Dimant,Ulrich Schmidt
-Giuseppe Attanasi,Claire Rimbaud
-Giuseppe Attanasi,Marie Claire Villeval
-Claire Rimbaud,Marie Claire Villeval
-Christine L. Exley,Judd Kessler
-Wojciech Hardy,Michal Krawczyk
-Wojciech Hardy,Joanna Tyrowicz
-Michal Krawczyk,Joanna Tyrowicz
-Nives Della Valle,Matteo Ploner
-Erik Kimbrough,Alexander Vostroknutov
-Erik Kimbrough,Joshua Miller
-Erik Kimbrough,Alexander Vostroknutov
-Joshua Miller,Alexander Vostroknutov
-Marco Faillo,Matteo Rizzolli
-Marco Faillo,Stephan Tontrup
-Matteo Rizzolli,Stephan Tontrup
-Timo Goeschl,Sara Elisa Kettner
-Timo Goeschl,Johannes Lohse
-Timo Goeschl,Christiane Schwieren
-Sara Elisa Kettner,Johannes Lohse
-Sara Elisa Kettner,Christiane Schwieren
-Johannes Lohse,Christiane Schwieren
-Mark Bernard,Ernesto Reuben
-Mark Bernard,Arno Riedl
-Ernesto Reuben,Arno Riedl
-Simon Bartke,Steven J. Bosworth
-Simon Bartke,Dennis J. Snower
-Simon Bartke,Gabriele Chierchia
-Steven J. Bosworth,Dennis J. Snower
-Steven J. Bosworth,Gabriele Chierchia
-Dennis J. Snower,Gabriele Chierchia
-Aidin Hajikhameneh,Erik Kimbrough
-Louise Grogan,Fraser Summerfield
-Lasse Loft,Stefan Gehrig
-Lasse Loft,Dung Ngoc Le
-Lasse Loft,Jens Rommel
-Stefan Gehrig,Dung Ngoc Le
-Stefan Gehrig,Jens Rommel
-Dung Ngoc Le,Jens Rommel
-Johannes König,Levent Neyse
-Johannes König,Carsten Schröder
-Levent Neyse,Carsten Schröder
-Stepan Vesely,Erik Wengström
-Folco Panizza,Alexander Vostroknutov
-Folco Panizza,Giorgio Coricelli
-Alexander Vostroknutov,Giorgio Coricelli
-Daphne Chang,Roy Chen
-Daphne Chang,Erin Krupka
-Roy Chen,Erin Krupka
-Felix Kolle,Tom Lane
-Felix Kolle,Daniele Nosenzo
-Felix Kolle,Chris Starmer
-Tom Lane,Daniele Nosenzo
-Tom Lane,Chris Starmer
-Daniele Nosenzo,Chris Starmer
-Kathrin Dengler-Roscher,Natalia Montinari
-Kathrin Dengler-Roscher,Marian Panganiban
-Kathrin Dengler-Roscher,Matteo Ploner
-Kathrin Dengler-Roscher,Benedikt Werner
-Natalia Montinari,Marian Panganiban
-Natalia Montinari,Matteo Ploner
-Natalia Montinari,Benedikt Werner
-Marian Panganiban,Matteo Ploner
-Marian Panganiban,Benedikt Werner
-Matteo Ploner,Benedikt Werner
-Seungjun Ahn,Byungjoo Choi
-Seungjun Ahn,SangHyun Lee
-Byungjoo Choi,SangHyun Lee
-Kai Barron,Robert Stüber
-Kai Barron,Roel van Veldhuizen
-Robert Stüber,Roel van Veldhuizen
-Tom Lane,Daniele Nosenzo
-Nils Köbis,Marleen Troost
-Nils Köbis,Cyril Brandt
-Nils Köbis,Ivan Soraperra
-Marleen Troost,Cyril Brandt
-Marleen Troost,Ivan Soraperra
-Cyril Brandt,Ivan Soraperra
-Arthur Schram,Jin Di Zheng
-Arthur Schram,Tatyana Zhuravleva
-Jin Di Zheng,Tatyana Zhuravleva
-Mark Pickup,Erik Kimbrough
-Mark Pickup,Eline de Rooij
-Erik Kimbrough,Eline de Rooij
-Marius Alt,Carlo Gallier
-Marius Alt,Achim Schluter
-Marius Alt,Katherine Nelson
-Marius Alt,Eva Anggraini
-Carlo Gallier,Achim Schluter
-Carlo Gallier,Katherine Nelson
-Carlo Gallier,Eva Anggraini
-Achim Schluter,Katherine Nelson
-Achim Schluter,Eva Anggraini
-Katherine Nelson,Eva Anggraini
-Eugen Dimant,Tobias Gesche
-Ruth Beer,Ignacio Andres Rios
-Ruth Beer,Daniela Saban
-Ignacio Andres Rios,Daniela Saban
-Markus Sass,Florian Timme
-Markus Sass,Joachim Weimann
-Florian Timme,Joachim Weimann
-Michael Kurschilgen,Isabel Marcin
-Francesco Fallucchi,Daniele Nosenzo
-Leonard Hoeft,Wladislaw Mill
-Leonard Hoeft,Alexander Vostroknutov
-Wladislaw Mill,Alexander Vostroknutov
-Christoph Engel,Luigi Mittone
-Christoph Engel,Azzurra Morreale
-Luigi Mittone,Azzurra Morreale
-Eryk Krysowski,James Tremewan
-Hanna Fromell,Daniele Nosenzo
-Hanna Fromell,Trudy Owens
-Hanna Fromell,Fabio Tufano
-Daniele Nosenzo,Trudy Owens
-Daniele Nosenzo,Fabio Tufano
-Trudy Owens,Fabio Tufano
-Ritwik Banerjee,Tushi Baul
-Ritwik Banerjee,Tanya Rosenblat
-Tushi Baul,Tanya Rosenblat
-Bachir Kassas,Marco Palma
-J. Jobu Babin,Andrew Hussey
-J. Jobu Babin,Alex Nikolsko-Rzhevskyy
-J. Jobu Babin,David A. Taylor
-Andrew Hussey,Alex Nikolsko-Rzhevskyy
-Andrew Hussey,David A. Taylor
-Alex Nikolsko-Rzhevskyy,David A. Taylor
-Nikos Nikiforakis,Jörg Oechssler
-Nikos Nikiforakis,Anwar Shah
-Jörg Oechssler,Anwar Shah
-Peilu Zhang,Yinjunjie Zhang
-Peilu Zhang,Marco Palma
-Yinjunjie Zhang,Marco Palma
-Fabio Galeotti,Valentina Maggian
-Fabio Galeotti,Marie Claire Villeval
-Valentina Maggian,Marie Claire Villeval
-Kristina Czura,Anett John
-Kristina Czura,Lisa Spantig
-Anett John,Lisa Spantig
-Prasenjit Banerjee,Vegard Iversen
-Prasenjit Banerjee,Sandip Mitra
-Prasenjit Banerjee,Antonio Nicolò
-Prasenjit Banerjee,Kunal Sen
-Vegard Iversen,Sandip Mitra
-Vegard Iversen,Antonio Nicolò
-Vegard Iversen,Kunal Sen
-Sandip Mitra,Antonio Nicolò
-Sandip Mitra,Kunal Sen
-Antonio Nicolò,Kunal Sen
-Michalis Drouvelis,Adam Isen
-Michalis Drouvelis,Benjamin M. Marx
-Adam Isen,Benjamin M. Marx
-Robert Schmidt,Christiane Schwieren
-Robert Schmidt,Alec N. Sproten
-Christiane Schwieren,Alec N. Sproten
-Eryk Krysowski,James Tremewan
-Alisa Frik,Luigi Mittone
-Katherine B. Coffman,Christine L. Exley
-Katherine B. Coffman,Muriel Niederle
-Christine L. Exley,Muriel Niederle
-Markus Sass,Florian Timme
-Markus Sass,Joachim Weimann
-Florian Timme,Joachim Weimann
-Abigail Barr,Marleen Dekker
-Abigail Barr,Floyd Mwansa
-Abigail Barr,Tia Linda Zuze
-Marleen Dekker,Floyd Mwansa
-Marleen Dekker,Tia Linda Zuze
-Floyd Mwansa,Tia Linda Zuze
-Per A. Andersson,Arvid Erlandsson
-Per A. Andersson,Daniel Vastfjall
-Per A. Andersson,Gustav Tinghog
-Arvid Erlandsson,Daniel Vastfjall
-Arvid Erlandsson,Gustav Tinghog
-Daniel Vastfjall,Gustav Tinghog
-Matthias Lang,Simeon Schudy
-Blaine Robbins,Aaron Kamm
-Blaine Robbins,Daniel Karell
-Blaine Robbins,Simon Siegenthaler
-Aaron Kamm,Daniel Karell
-Aaron Kamm,Simon Siegenthaler
-Daniel Karell,Simon Siegenthaler
-Rustam Romaniuc,Dimitri Dubois
-Rustam Romaniuc,Eugen Dimant
-Rustam Romaniuc,Adrian Lupusor
-Rustam Romaniuc,Valerio Prohnitchi
-Dimitri Dubois,Eugen Dimant
-Dimitri Dubois,Adrian Lupusor
-Dimitri Dubois,Valerio Prohnitchi
-Eugen Dimant,Adrian Lupusor
-Eugen Dimant,Valerio Prohnitchi
-Adrian Lupusor,Valerio Prohnitchi
-Iftekhar Hasan,Felix Noth
-Iftekhar Hasan,Lena Tonzer
-Felix Noth,Lena Tonzer
-Jennifer M. Murray,Erik Kimbrough
-Jennifer M. Murray,Erin Krupka
-Jennifer M. Murray,Abhijit Ramalingam
-Jennifer M. Murray,Rajnish Kumar
-Jennifer M. Murray,Joanna McHugh Power
-Jennifer M. Murray,Sharon Sanchez-Franco
-Jennifer M. Murray,Olga L. Sarmiento
-Jennifer M. Murray,Frank Kee
-Jennifer M. Murray,Ruth F. Hunter
-Erik Kimbrough,Erin Krupka
-Erik Kimbrough,Abhijit Ramalingam
-Erik Kimbrough,Rajnish Kumar
-Erik Kimbrough,Joanna McHugh Power
-Erik Kimbrough,Sharon Sanchez-Franco
-Erik Kimbrough,Olga L. Sarmiento
-Erik Kimbrough,Frank Kee
-Erik Kimbrough,Ruth F. Hunter
-Erin Krupka,Abhijit Ramalingam
-Erin Krupka,Rajnish Kumar
-Erin Krupka,Joanna McHugh Power
-Erin Krupka,Sharon Sanchez-Franco
-Erin Krupka,Olga L. Sarmiento
-Erin Krupka,Frank Kee
-Erin Krupka,Ruth F. Hunter
-Abhijit Ramalingam,Rajnish Kumar
-Abhijit Ramalingam,Joanna McHugh Power
-Abhijit Ramalingam,Sharon Sanchez-Franco
-Abhijit Ramalingam,Olga L. Sarmiento
-Abhijit Ramalingam,Frank Kee
-Abhijit Ramalingam,Ruth F. Hunter
-Rajnish Kumar,Joanna McHugh Power
-Rajnish Kumar,Sharon Sanchez-Franco
-Rajnish Kumar,Olga L. Sarmiento
-Rajnish Kumar,Frank Kee
-Rajnish Kumar,Ruth F. Hunter
-Joanna McHugh Power,Sharon Sanchez-Franco
-Joanna McHugh Power,Olga L. Sarmiento
-Joanna McHugh Power,Frank Kee
-Joanna McHugh Power,Ruth F. Hunter
-Sharon Sanchez-Franco,Olga L. Sarmiento
-Sharon Sanchez-Franco,Frank Kee
-Sharon Sanchez-Franco,Ruth F. Hunter
-Olga L. Sarmiento,Frank Kee
-Olga L. Sarmiento,Ruth F. Hunter
-Frank Kee,Ruth F. Hunter
-Prasenjit Banerjee,Vegard Iversen
-Prasenjit Banerjee,Sandip Mitra
-Prasenjit Banerjee,Antonio Nicolò
-Prasenjit Banerjee,Kunal Sen
-Vegard Iversen,Sandip Mitra
-Vegard Iversen,Antonio Nicolò
-Vegard Iversen,Kunal Sen
-Sandip Mitra,Antonio Nicolò
-Sandip Mitra,Kunal Sen
-Antonio Nicolò,Kunal Sen
-Toke Fosgaard,Lars Garn Hansen
-Toke Fosgaard,Erik Wengström
-Lars Garn Hansen,Erik Wengström
-Christoph Rossler,Hannes Rusch
-Christoph Rossler,Tim Friehe
-Hannes Rusch,Tim Friehe
-Robert Hoffmann,Janneke Blijlevens
-Robert Hoffmann,Swee-Hoon Chuah
-Robert Hoffmann,Ananta Neelim
-Robert Hoffmann,Joanne Peryman
-Robert Hoffmann,Ahmed Skali
-Janneke Blijlevens,Swee-Hoon Chuah
-Janneke Blijlevens,Ananta Neelim
-Janneke Blijlevens,Joanne Peryman
-Janneke Blijlevens,Ahmed Skali
-Swee-Hoon Chuah,Ananta Neelim
-Swee-Hoon Chuah,Joanne Peryman
-Swee-Hoon Chuah,Ahmed Skali
-Ananta Neelim,Joanne Peryman
-Ananta Neelim,Ahmed Skali
-Joanne Peryman,Ahmed Skali
-Andreas Ziegler,Giorgia Romagnoli
-Andreas Ziegler,Theo Offerman
-Giorgia Romagnoli,Theo Offerman
-Christoph Huber,Jürgen Huber
-Giuseppe Dari-Mattiacci,Marco Fabbri
-Fortuna Casoria,Fabio Galeotti
-Fortuna Casoria,Marie Claire Villeval
-Fabio Galeotti,Marie Claire Villeval
-Stefan Bechtold,Gabriel Gertsch
-Stefan Bechtold,Martin Schonger
-Gabriel Gertsch,Martin Schonger
-Lea Petters,Marina Schröder
-Marta Serra-Garcia,Nora Szech
-Zvonimir Bašic,Eugenio Verrina
-Maximiliano Senci,Brenda Elizabeth Ryan
-Maximiliano Senci,Natalia Gregorietti
-Maximiliano Senci,Esteban Freidin
-Brenda Elizabeth Ryan,Natalia Gregorietti
-Brenda Elizabeth Ryan,Esteban Freidin
-Natalia Gregorietti,Esteban Freidin
-Hanna Fromell,Daniele Nosenzo
-Hanna Fromell,Trudy Owens
-Hanna Fromell,Fabio Tufano
-Daniele Nosenzo,Trudy Owens
-Daniele Nosenzo,Fabio Tufano
-Trudy Owens,Fabio Tufano
-Danae Arroyos-Calvera,Michalis Drouvelis
-Danae Arroyos-Calvera,Johannes Lohse
-Danae Arroyos-Calvera,Rebecca McDonald
-Michalis Drouvelis,Johannes Lohse
-Michalis Drouvelis,Rebecca McDonald
-Johannes Lohse,Rebecca McDonald
-Sabrina Jeworrek,Vanessa Mertins
-Sabrina Jeworrek,Michael Vlassopoulos
-Vanessa Mertins,Michael Vlassopoulos
-Jingnan Chena,Miguel Fonseca
-Jingnan Chena,Shaun Grimshaw
-Miguel Fonseca,Shaun Grimshaw
-Prasenjit Banerjee,Rupayan Pal
-Prasenjit Banerjee,Ada Wossink
-Prasenjit Banerjee,James Asher
-Rupayan Pal,Ada Wossink
-Rupayan Pal,James Asher
-Ada Wossink,James Asher
-Thomas Busera,Eva Ranehill
-Thomas Busera,Roel van Veldhuizen
-Eva Ranehill,Roel van Veldhuizen
-Sabrina Jeworrek,Joschka Waibel
-Arno Apffelstaedt,Jana Freundt
-Arno Apffelstaedt,Christoph Oslislo
-Jana Freundt,Christoph Oslislo
-Cristina Bicchieri,Erte Xiao
-Marco Catola,Simone D’Alessandro
-Marco Catola,Pietro Guarnieri
-Marco Catola,Veronica Pizziol
-Simone D’Alessandro,Pietro Guarnieri
-Simone D’Alessandro,Veronica Pizziol
-Pietro Guarnieri,Veronica Pizziol
-Erte Xiao,Cristina Bicchieri
-Marco Faillo,Stefania Ottone
-Marco Faillo,Lorenzo Sacconi
-Stefania Ottone,Lorenzo Sacconi
-Nils Köbis,Daniel Iragorri-Carter
-Nils Köbis,Christopher Starke
-Daniel Iragorri-Carter,Christopher Starke
-Mark Bernard,Ernesto Reuben
-Mark Bernard,Arno Riedl
-Ernesto Reuben,Arno Riedl
-Astrid Matthey,Tobias Regner
-Giovanna D'Adda,Martin Dufwenberg
-Giovanna D'Adda,Francesco Passarelli
-Giovanna D'Adda,Guido Tabellini
-Martin Dufwenberg,Francesco Passarelli
-Martin Dufwenberg,Guido Tabellini
-Francesco Passarelli,Guido Tabellini
-Greg DeAngelo,Perry Ferrell
-Greg DeAngelo,Bryan McCannon
-Perry Ferrell,Bryan McCannon
-Sascha Behnk,Li Hao
-Sascha Behnk,Ernesto Reuben
-Li Hao,Ernesto Reuben
-Hezhi Chen,Zhijia Zeng
-Hezhi Chen,Jianhong Ma
-Zhijia Zeng,Jianhong Ma
-Gordon Kraft-Todd,David Rand
-Eugen Dimant,Cristina Bicchieri
-Eugen Dimant,Erte Xiao
-Cristina Bicchieri,Erte Xiao
-Cristina Bicchieri,Eugen Dimant
-Cristina Bicchieri,Silvia Sonderegger
-Eugen Dimant,Silvia Sonderegger
-Kate Farrow,Gilles Grolleau
-Kate Farrow,Lisette Ibanez
-Gilles Grolleau,Lisette Ibanez
-Christoph Engel,Michael Kurschilgen
-Moya Miller,Molla Ubeda
-Florian Diekert,Tillmann Eymess
-Florian Diekert,Joseph Luomba
-Florian Diekert,Israel Waichman
-Tillmann Eymess,Joseph Luomba
-Tillmann Eymess,Israel Waichman
-Joseph Luomba,Israel Waichman
-Alex K. Chavez,Cristina Bicchieri
-Cristina Bicchieri,Eugen Dimant
-Klaus Abbink,Esteban Freidin
-Klaus Abbink,Lata Gangadharan
-Klaus Abbink,Rodrigo Moro
-Esteban Freidin,Lata Gangadharan
-Esteban Freidin,Rodrigo Moro
-Lata Gangadharan,Rodrigo Moro
-Björn Bartling,Ernst Fehr
-Björn Bartling,Yagiz Özdemir
-Ernst Fehr,Yagiz Özdemir
-Felix Kolle,Simone Quercia
-Adrian Chadi,Mario Mechtel
-Adrian Chadi,vanessa Mertins
-Mario Mechtel,vanessa Mertins
-Simon Columbus,Robert Böhm
-Catherine Eckel,Hanna Hoover
-Catherine Eckel,Erin Krupka
-Catherine Eckel,Oluwagbemiga Ojumu
-Catherine Eckel,Tanya Rosenblat
-Catherine Eckel,Nishita Sinha
-Catherine Eckel,Rick K. Wilson
-Hanna Hoover,Erin Krupka
-Hanna Hoover,Oluwagbemiga Ojumu
-Hanna Hoover,Tanya Rosenblat
-Hanna Hoover,Nishita Sinha
-Hanna Hoover,Rick K. Wilson
-Erin Krupka,Oluwagbemiga Ojumu
-Erin Krupka,Tanya Rosenblat
-Erin Krupka,Nishita Sinha
-Erin Krupka,Rick K. Wilson
-Oluwagbemiga Ojumu,Tanya Rosenblat
-Oluwagbemiga Ojumu,Nishita Sinha
-Oluwagbemiga Ojumu,Rick K. Wilson
-Tanya Rosenblat,Nishita Sinha
-Tanya Rosenblat,Rick K. Wilson
-Nishita Sinha,Rick K. Wilson
-Alice Guerra,Tatyana Zhuravleva
-Edward Lazear,Ulrike Malmendier
-Edward Lazear,Roberto Weber
-Ulrike Malmendier,Roberto Weber
-Eugen Dimant,Gerben A van Kleef
-Eugen Dimant,Shaul Shalvi
-Gerben A van Kleef,Shaul Shalvi
-Aron Szekely,Francesca Lipari
-Aron Szekely,Alberto Antonioni
-Aron Szekely,Mario Paolucci
-Aron Szekely,Angel Sanchez
-Aron Szekely,Luca Tummolini
-Aron Szekely,Giulia Andrighetto
-Francesca Lipari,Alberto Antonioni
-Francesca Lipari,Mario Paolucci
-Francesca Lipari,Angel Sanchez
-Francesca Lipari,Luca Tummolini
-Francesca Lipari,Giulia Andrighetto
-Alberto Antonioni,Mario Paolucci
-Alberto Antonioni,Angel Sanchez
-Alberto Antonioni,Luca Tummolini
-Alberto Antonioni,Giulia Andrighetto
-Mario Paolucci,Angel Sanchez
-Mario Paolucci,Luca Tummolini
-Mario Paolucci,Giulia Andrighetto
-Angel Sanchez,Luca Tummolini
-Angel Sanchez,Giulia Andrighetto
-Luca Tummolini,Giulia Andrighetto
-Denis Tverskoi,Andrea Guido
-Denis Tverskoi,Giulia Andrighetto
-Denis Tverskoi,Angel Sanchez
-Denis Tverskoi,Sergey Gavrilets
-Andrea Guido,Giulia Andrighetto
-Andrea Guido,Angel Sanchez
-Andrea Guido,Sergey Gavrilets
-Giulia Andrighetto,Angel Sanchez
-Giulia Andrighetto,Sergey Gavrilets
-Angel Sanchez,Sergey Gavrilets
+"from","to"
+"Erin Krupka","Roberto Weber"
+"Simon Gachter","Daniele Nosenzo"
+"Simon Gachter","Martin Sefton"
+"Daniele Nosenzo","Martin Sefton"
+"Erik Kimbrough","Alexander Vostroknutov"
+"Uri Gneezy","Alex Imas"
+"Uri Gneezy","Kristóf Madarász"
+"Alex Imas","Kristóf Madarász"
+"Jeffrey Carpenter","Erik Gong"
+"Stephen Burks","Erin Krupka"
+"Erin Krupka","Sthephen Leider"
+"Erin Krupka","Ming Jiang"
+"Sthephen Leider","Ming Jiang"
+"Christine L. Exley","Muriel Niederle"
+"Christine L. Exley","Lise Vesterlund"
+"Muriel Niederle","Lise Vesterlund"
+"Alain Cohn","Michel André Maréchal"
+"Alain Cohn","David Tannenbaum"
+"Alain Cohn","Christian Lukas Zünd"
+"Michel André Maréchal","David Tannenbaum"
+"Michel André Maréchal","Christian Lukas Zünd"
+"David Tannenbaum","Christian Lukas Zünd"
+"Lata Gangadharan","Tarun Jain"
+"Lata Gangadharan","Pushkar Maitra"
+"Lata Gangadharan","Joseph Vecci"
+"Tarun Jain","Pushkar Maitra"
+"Tarun Jain","Joseph Vecci"
+"Pushkar Maitra","Joseph Vecci"
+"Simon Gachter","Leonie Gerhards"
+"Simon Gachter","Daniele Nosenzo"
+"Leonie Gerhards","Daniele Nosenzo"
+"Giovanna D'Adda","Donja Darai"
+"Giovanna D'Adda","Nicola Pavanini"
+"Giovanna D'Adda","Roberto Weber"
+"Donja Darai","Nicola Pavanini"
+"Donja Darai","Roberto Weber"
+"Nicola Pavanini","Roberto Weber"
+"Hande Erkut","Daniele Nosenzo"
+"Hande Erkut","Martin Sefton"
+"Daniele Nosenzo","Martin Sefton"
+"Abigail Barr","Tom Lane"
+"Abigail Barr","Daniele Nosenzo"
+"Tom Lane","Daniele Nosenzo"
+"Stepan Vesely","Christian Klöckner"
+"Utteeyo Dasgupta","Subha Mani"
+"Michal Bauer","Jana Cahlíková"
+"Michal Bauer","Julie Chytilová"
+"Michal Bauer","Tomáš Želinský"
+"Jana Cahlíková","Julie Chytilová"
+"Jana Cahlíková","Tomáš Želinský"
+"Julie Chytilová","Tomáš Želinský"
+"Daphne Chang","Erin Krupka"
+"Daphne Chang","Eytan Adar"
+"Daphne Chang","Alessandro Acquisti"
+"Erin Krupka","Eytan Adar"
+"Erin Krupka","Alessandro Acquisti"
+"Eytan Adar","Alessandro Acquisti"
+"Nikos Nikiforakis","Jörg Oechssler"
+"Nikos Nikiforakis","Anwar Shah"
+"Jörg Oechssler","Anwar Shah"
+"Klaus Abbink","Lata Gangadharan"
+"Klaus Abbink","Toby Handfield"
+"Klaus Abbink","John Thrasher"
+"Lata Gangadharan","Toby Handfield"
+"Lata Gangadharan","John Thrasher"
+"Toby Handfield","John Thrasher"
+"Giovanna D'Adda","Michalis Drouvelis"
+"Giovanna D'Adda","Daniele Nosenzo"
+"Michalis Drouvelis","Daniele Nosenzo"
+"Andreas Kappes","Anne-Marie Nussberger"
+"Andreas Kappes","Nadira Faber"
+"Andreas Kappes","Guy Kahane"
+"Andreas Kappes","Julian Savulescu"
+"Andreas Kappes","Molly Crockett"
+"Anne-Marie Nussberger","Nadira Faber"
+"Anne-Marie Nussberger","Guy Kahane"
+"Anne-Marie Nussberger","Julian Savulescu"
+"Anne-Marie Nussberger","Molly Crockett"
+"Nadira Faber","Guy Kahane"
+"Nadira Faber","Julian Savulescu"
+"Nadira Faber","Molly Crockett"
+"Guy Kahane","Julian Savulescu"
+"Guy Kahane","Molly Crockett"
+"Julian Savulescu","Molly Crockett"
+"Simon Felgendreher","Åsa Löfgren"
+"Daphne Chang","Roy Chen"
+"Daphne Chang","Erin Krupka"
+"Roy Chen","Erin Krupka"
+"Ellen Garbarino","Robert Slonim"
+"Ellen Garbarino","Marie Claire Villeval"
+"Robert Slonim","Marie Claire Villeval"
+"Kay J. Thomsson","Alexander Vostroknutov"
+"Michal Krawczyk","Joanna Tyrowicz"
+"Michal Krawczyk","Anna Kukla-Gryz"
+"Michal Krawczyk","Wojciech Hardy"
+"Joanna Tyrowicz","Anna Kukla-Gryz"
+"Joanna Tyrowicz","Wojciech Hardy"
+"Anna Kukla-Gryz","Wojciech Hardy"
+"Björn Bartling","Yagiz Özdemir"
+"Cristina Bicchieri","Eugen Dimant"
+"Cristina Bicchieri","Simon Gachter"
+"Cristina Bicchieri","Daniele Nosenzo"
+"Eugen Dimant","Simon Gachter"
+"Eugen Dimant","Daniele Nosenzo"
+"Simon Gachter","Daniele Nosenzo"
+"Gary Bolton","Eugen Dimant"
+"Gary Bolton","Ulrich Schmidt"
+"Eugen Dimant","Ulrich Schmidt"
+"Giuseppe Attanasi","Claire Rimbaud"
+"Giuseppe Attanasi","Marie Claire Villeval"
+"Claire Rimbaud","Marie Claire Villeval"
+"Christine L. Exley","Judd Kessler"
+"Wojciech Hardy","Michal Krawczyk"
+"Wojciech Hardy","Joanna Tyrowicz"
+"Michal Krawczyk","Joanna Tyrowicz"
+"Nives Della Valle","Matteo Ploner"
+"Erik Kimbrough","Alexander Vostroknutov"
+"Erik Kimbrough","Joshua Miller"
+"Erik Kimbrough","Alexander Vostroknutov"
+"Joshua Miller","Alexander Vostroknutov"
+"Marco Faillo","Matteo Rizzolli"
+"Marco Faillo","Stephan Tontrup"
+"Matteo Rizzolli","Stephan Tontrup"
+"Timo Goeschl","Sara Elisa Kettner"
+"Timo Goeschl","Johannes Lohse"
+"Timo Goeschl","Christiane Schwieren"
+"Sara Elisa Kettner","Johannes Lohse"
+"Sara Elisa Kettner","Christiane Schwieren"
+"Johannes Lohse","Christiane Schwieren"
+"Mark Bernard","Ernesto Reuben"
+"Mark Bernard","Arno Riedl"
+"Ernesto Reuben","Arno Riedl"
+"Simon Bartke","Steven J. Bosworth"
+"Simon Bartke","Dennis J. Snower"
+"Simon Bartke","Gabriele Chierchia"
+"Steven J. Bosworth","Dennis J. Snower"
+"Steven J. Bosworth","Gabriele Chierchia"
+"Dennis J. Snower","Gabriele Chierchia"
+"Aidin Hajikhameneh","Erik Kimbrough"
+"Louise Grogan","Fraser Summerfield"
+"Lasse Loft","Stefan Gehrig"
+"Lasse Loft","Dung Ngoc Le"
+"Lasse Loft","Jens Rommel"
+"Stefan Gehrig","Dung Ngoc Le"
+"Stefan Gehrig","Jens Rommel"
+"Dung Ngoc Le","Jens Rommel"
+"Johannes König","Levent Neyse"
+"Johannes König","Carsten Schröder"
+"Levent Neyse","Carsten Schröder"
+"Stepan Vesely","Erik Wengström"
+"Folco Panizza","Alexander Vostroknutov"
+"Folco Panizza","Giorgio Coricelli"
+"Alexander Vostroknutov","Giorgio Coricelli"
+"Daphne Chang","Roy Chen"
+"Daphne Chang","Erin Krupka"
+"Roy Chen","Erin Krupka"
+"Felix Kolle","Tom Lane"
+"Felix Kolle","Daniele Nosenzo"
+"Felix Kolle","Chris Starmer"
+"Tom Lane","Daniele Nosenzo"
+"Tom Lane","Chris Starmer"
+"Daniele Nosenzo","Chris Starmer"
+"Kathrin Dengler-Roscher","Natalia Montinari"
+"Kathrin Dengler-Roscher","Marian Panganiban"
+"Kathrin Dengler-Roscher","Matteo Ploner"
+"Kathrin Dengler-Roscher","Benedikt Werner"
+"Natalia Montinari","Marian Panganiban"
+"Natalia Montinari","Matteo Ploner"
+"Natalia Montinari","Benedikt Werner"
+"Marian Panganiban","Matteo Ploner"
+"Marian Panganiban","Benedikt Werner"
+"Matteo Ploner","Benedikt Werner"
+"Seungjun Ahn","Byungjoo Choi"
+"Seungjun Ahn","SangHyun Lee"
+"Byungjoo Choi","SangHyun Lee"
+"Kai Barron","Robert Stüber"
+"Kai Barron","Roel van Veldhuizen"
+"Robert Stüber","Roel van Veldhuizen"
+"Tom Lane","Daniele Nosenzo"
+"Nils Köbis","Marleen Troost"
+"Nils Köbis","Cyril Brandt"
+"Nils Köbis","Ivan Soraperra"
+"Marleen Troost","Cyril Brandt"
+"Marleen Troost","Ivan Soraperra"
+"Cyril Brandt","Ivan Soraperra"
+"Arthur Schram","Jin Di Zheng"
+"Arthur Schram","Tatyana Zhuravleva"
+"Jin Di Zheng","Tatyana Zhuravleva"
+"Mark Pickup","Erik Kimbrough"
+"Mark Pickup","Eline de Rooij"
+"Erik Kimbrough","Eline de Rooij"
+"Marius Alt","Carlo Gallier"
+"Marius Alt","Achim Schluter"
+"Marius Alt","Katherine Nelson"
+"Marius Alt","Eva Anggraini"
+"Carlo Gallier","Achim Schluter"
+"Carlo Gallier","Katherine Nelson"
+"Carlo Gallier","Eva Anggraini"
+"Achim Schluter","Katherine Nelson"
+"Achim Schluter","Eva Anggraini"
+"Katherine Nelson","Eva Anggraini"
+"Eugen Dimant","Tobias Gesche"
+"Ruth Beer","Ignacio Andres Rios"
+"Ruth Beer","Daniela Saban"
+"Ignacio Andres Rios","Daniela Saban"
+"Markus Sass","Florian Timme"
+"Markus Sass","Joachim Weimann"
+"Florian Timme","Joachim Weimann"
+"Michael Kurschilgen","Isabel Marcin"
+"Francesco Fallucchi","Daniele Nosenzo"
+"Leonard Hoeft","Wladislaw Mill"
+"Leonard Hoeft","Alexander Vostroknutov"
+"Wladislaw Mill","Alexander Vostroknutov"
+"Christoph Engel","Luigi Mittone"
+"Christoph Engel","Azzurra Morreale"
+"Luigi Mittone","Azzurra Morreale"
+"Eryk Krysowski","James Tremewan"
+"Hanna Fromell","Daniele Nosenzo"
+"Hanna Fromell","Trudy Owens"
+"Hanna Fromell","Fabio Tufano"
+"Daniele Nosenzo","Trudy Owens"
+"Daniele Nosenzo","Fabio Tufano"
+"Trudy Owens","Fabio Tufano"
+"Ritwik Banerjee","Tushi Baul"
+"Ritwik Banerjee","Tanya Rosenblat"
+"Tushi Baul","Tanya Rosenblat"
+"Bachir Kassas","Marco Palma"
+"J. Jobu Babin","Andrew Hussey"
+"J. Jobu Babin","Alex Nikolsko-Rzhevskyy"
+"J. Jobu Babin","David A. Taylor"
+"Andrew Hussey","Alex Nikolsko-Rzhevskyy"
+"Andrew Hussey","David A. Taylor"
+"Alex Nikolsko-Rzhevskyy","David A. Taylor"
+"Nikos Nikiforakis","Jörg Oechssler"
+"Nikos Nikiforakis","Anwar Shah"
+"Jörg Oechssler","Anwar Shah"
+"Peilu Zhang","Yinjunjie Zhang"
+"Peilu Zhang","Marco Palma"
+"Yinjunjie Zhang","Marco Palma"
+"Fabio Galeotti","Valentina Maggian"
+"Fabio Galeotti","Marie Claire Villeval"
+"Valentina Maggian","Marie Claire Villeval"
+"Kristina Czura","Anett John"
+"Kristina Czura","Lisa Spantig"
+"Anett John","Lisa Spantig"
+"Prasenjit Banerjee","Vegard Iversen"
+"Prasenjit Banerjee","Sandip Mitra"
+"Prasenjit Banerjee","Antonio Nicolò"
+"Prasenjit Banerjee","Kunal Sen"
+"Vegard Iversen","Sandip Mitra"
+"Vegard Iversen","Antonio Nicolò"
+"Vegard Iversen","Kunal Sen"
+"Sandip Mitra","Antonio Nicolò"
+"Sandip Mitra","Kunal Sen"
+"Antonio Nicolò","Kunal Sen"
+"Michalis Drouvelis","Adam Isen"
+"Michalis Drouvelis","Benjamin M. Marx"
+"Adam Isen","Benjamin M. Marx"
+"Robert Schmidt","Christiane Schwieren"
+"Robert Schmidt","Alec N. Sproten"
+"Christiane Schwieren","Alec N. Sproten"
+"Eryk Krysowski","James Tremewan"
+"Alisa Frik","Luigi Mittone"
+"Katherine B. Coffman","Christine L. Exley"
+"Katherine B. Coffman","Muriel Niederle"
+"Christine L. Exley","Muriel Niederle"
+"Markus Sass","Florian Timme"
+"Markus Sass","Joachim Weimann"
+"Florian Timme","Joachim Weimann"
+"Abigail Barr","Marleen Dekker"
+"Abigail Barr","Floyd Mwansa"
+"Abigail Barr","Tia Linda Zuze"
+"Marleen Dekker","Floyd Mwansa"
+"Marleen Dekker","Tia Linda Zuze"
+"Floyd Mwansa","Tia Linda Zuze"
+"Per A. Andersson","Arvid Erlandsson"
+"Per A. Andersson","Daniel Vastfjall"
+"Per A. Andersson","Gustav Tinghog"
+"Arvid Erlandsson","Daniel Vastfjall"
+"Arvid Erlandsson","Gustav Tinghog"
+"Daniel Vastfjall","Gustav Tinghog"
+"Matthias Lang","Simeon Schudy"
+"Blaine Robbins","Aaron Kamm"
+"Blaine Robbins","Daniel Karell"
+"Blaine Robbins","Simon Siegenthaler"
+"Aaron Kamm","Daniel Karell"
+"Aaron Kamm","Simon Siegenthaler"
+"Daniel Karell","Simon Siegenthaler"
+"Rustam Romaniuc","Dimitri Dubois"
+"Rustam Romaniuc","Eugen Dimant"
+"Rustam Romaniuc","Adrian Lupusor"
+"Rustam Romaniuc","Valerio Prohnitchi"
+"Dimitri Dubois","Eugen Dimant"
+"Dimitri Dubois","Adrian Lupusor"
+"Dimitri Dubois","Valerio Prohnitchi"
+"Eugen Dimant","Adrian Lupusor"
+"Eugen Dimant","Valerio Prohnitchi"
+"Adrian Lupusor","Valerio Prohnitchi"
+"Iftekhar Hasan","Felix Noth"
+"Iftekhar Hasan","Lena Tonzer"
+"Felix Noth","Lena Tonzer"
+"Jennifer M. Murray","Erik Kimbrough"
+"Jennifer M. Murray","Erin Krupka"
+"Jennifer M. Murray","Abhijit Ramalingam"
+"Jennifer M. Murray","Rajnish Kumar"
+"Jennifer M. Murray","Joanna McHugh Power"
+"Jennifer M. Murray","Sharon Sanchez-Franco"
+"Jennifer M. Murray","Olga L. Sarmiento"
+"Jennifer M. Murray","Frank Kee"
+"Jennifer M. Murray","Ruth F. Hunter"
+"Erik Kimbrough","Erin Krupka"
+"Erik Kimbrough","Abhijit Ramalingam"
+"Erik Kimbrough","Rajnish Kumar"
+"Erik Kimbrough","Joanna McHugh Power"
+"Erik Kimbrough","Sharon Sanchez-Franco"
+"Erik Kimbrough","Olga L. Sarmiento"
+"Erik Kimbrough","Frank Kee"
+"Erik Kimbrough","Ruth F. Hunter"
+"Erin Krupka","Abhijit Ramalingam"
+"Erin Krupka","Rajnish Kumar"
+"Erin Krupka","Joanna McHugh Power"
+"Erin Krupka","Sharon Sanchez-Franco"
+"Erin Krupka","Olga L. Sarmiento"
+"Erin Krupka","Frank Kee"
+"Erin Krupka","Ruth F. Hunter"
+"Abhijit Ramalingam","Rajnish Kumar"
+"Abhijit Ramalingam","Joanna McHugh Power"
+"Abhijit Ramalingam","Sharon Sanchez-Franco"
+"Abhijit Ramalingam","Olga L. Sarmiento"
+"Abhijit Ramalingam","Frank Kee"
+"Abhijit Ramalingam","Ruth F. Hunter"
+"Rajnish Kumar","Joanna McHugh Power"
+"Rajnish Kumar","Sharon Sanchez-Franco"
+"Rajnish Kumar","Olga L. Sarmiento"
+"Rajnish Kumar","Frank Kee"
+"Rajnish Kumar","Ruth F. Hunter"
+"Joanna McHugh Power","Sharon Sanchez-Franco"
+"Joanna McHugh Power","Olga L. Sarmiento"
+"Joanna McHugh Power","Frank Kee"
+"Joanna McHugh Power","Ruth F. Hunter"
+"Sharon Sanchez-Franco","Olga L. Sarmiento"
+"Sharon Sanchez-Franco","Frank Kee"
+"Sharon Sanchez-Franco","Ruth F. Hunter"
+"Olga L. Sarmiento","Frank Kee"
+"Olga L. Sarmiento","Ruth F. Hunter"
+"Frank Kee","Ruth F. Hunter"
+"Prasenjit Banerjee","Vegard Iversen"
+"Prasenjit Banerjee","Sandip Mitra"
+"Prasenjit Banerjee","Antonio Nicolò"
+"Prasenjit Banerjee","Kunal Sen"
+"Vegard Iversen","Sandip Mitra"
+"Vegard Iversen","Antonio Nicolò"
+"Vegard Iversen","Kunal Sen"
+"Sandip Mitra","Antonio Nicolò"
+"Sandip Mitra","Kunal Sen"
+"Antonio Nicolò","Kunal Sen"
+"Toke Fosgaard","Lars Garn Hansen"
+"Toke Fosgaard","Erik Wengström"
+"Lars Garn Hansen","Erik Wengström"
+"Christoph Rossler","Hannes Rusch"
+"Christoph Rossler","Tim Friehe"
+"Hannes Rusch","Tim Friehe"
+"Robert Hoffmann","Janneke Blijlevens"
+"Robert Hoffmann","Swee-Hoon Chuah"
+"Robert Hoffmann","Ananta Neelim"
+"Robert Hoffmann","Joanne Peryman"
+"Robert Hoffmann","Ahmed Skali"
+"Janneke Blijlevens","Swee-Hoon Chuah"
+"Janneke Blijlevens","Ananta Neelim"
+"Janneke Blijlevens","Joanne Peryman"
+"Janneke Blijlevens","Ahmed Skali"
+"Swee-Hoon Chuah","Ananta Neelim"
+"Swee-Hoon Chuah","Joanne Peryman"
+"Swee-Hoon Chuah","Ahmed Skali"
+"Ananta Neelim","Joanne Peryman"
+"Ananta Neelim","Ahmed Skali"
+"Joanne Peryman","Ahmed Skali"
+"Andreas Ziegler","Giorgia Romagnoli"
+"Andreas Ziegler","Theo Offerman"
+"Giorgia Romagnoli","Theo Offerman"
+"Christoph Huber","Jürgen Huber"
+"Giuseppe Dari-Mattiacci","Marco Fabbri"
+"Fortuna Casoria","Fabio Galeotti"
+"Fortuna Casoria","Marie Claire Villeval"
+"Fabio Galeotti","Marie Claire Villeval"
+"Stefan Bechtold","Gabriel Gertsch"
+"Stefan Bechtold","Martin Schonger"
+"Gabriel Gertsch","Martin Schonger"
+"Lea Petters","Marina Schröder"
+"Marta Serra-Garcia","Nora Szech"
+"Zvonimir Bašic","Eugenio Verrina"
+"Maximiliano Senci","Brenda Elizabeth Ryan"
+"Maximiliano Senci","Natalia Gregorietti"
+"Maximiliano Senci","Esteban Freidin"
+"Brenda Elizabeth Ryan","Natalia Gregorietti"
+"Brenda Elizabeth Ryan","Esteban Freidin"
+"Natalia Gregorietti","Esteban Freidin"
+"Hanna Fromell","Daniele Nosenzo"
+"Hanna Fromell","Trudy Owens"
+"Hanna Fromell","Fabio Tufano"
+"Daniele Nosenzo","Trudy Owens"
+"Daniele Nosenzo","Fabio Tufano"
+"Trudy Owens","Fabio Tufano"
+"Danae Arroyos-Calvera","Michalis Drouvelis"
+"Danae Arroyos-Calvera","Johannes Lohse"
+"Danae Arroyos-Calvera","Rebecca McDonald"
+"Michalis Drouvelis","Johannes Lohse"
+"Michalis Drouvelis","Rebecca McDonald"
+"Johannes Lohse","Rebecca McDonald"
+"Sabrina Jeworrek","Vanessa Mertins"
+"Sabrina Jeworrek","Michael Vlassopoulos"
+"Vanessa Mertins","Michael Vlassopoulos"
+"Jingnan Chena","Miguel Fonseca"
+"Jingnan Chena","Shaun Grimshaw"
+"Miguel Fonseca","Shaun Grimshaw"
+"Prasenjit Banerjee","Rupayan Pal"
+"Prasenjit Banerjee","Ada Wossink"
+"Prasenjit Banerjee","James Asher"
+"Rupayan Pal","Ada Wossink"
+"Rupayan Pal","James Asher"
+"Ada Wossink","James Asher"
+"Thomas Busera","Eva Ranehill"
+"Thomas Busera","Roel van Veldhuizen"
+"Eva Ranehill","Roel van Veldhuizen"
+"Sabrina Jeworrek","Joschka Waibel"
+"Arno Apffelstaedt","Jana Freundt"
+"Arno Apffelstaedt","Christoph Oslislo"
+"Jana Freundt","Christoph Oslislo"
+"Cristina Bicchieri","Erte Xiao"
+"Marco Catola","Simone D’Alessandro"
+"Marco Catola","Pietro Guarnieri"
+"Marco Catola","Veronica Pizziol"
+"Simone D’Alessandro","Pietro Guarnieri"
+"Simone D’Alessandro","Veronica Pizziol"
+"Pietro Guarnieri","Veronica Pizziol"
+"Erte Xiao","Cristina Bicchieri"
+"Marco Faillo","Stefania Ottone"
+"Marco Faillo","Lorenzo Sacconi"
+"Stefania Ottone","Lorenzo Sacconi"
+"Nils Köbis","Daniel Iragorri-Carter"
+"Nils Köbis","Christopher Starke"
+"Daniel Iragorri-Carter","Christopher Starke"
+"Mark Bernard","Ernesto Reuben"
+"Mark Bernard","Arno Riedl"
+"Ernesto Reuben","Arno Riedl"
+"Astrid Matthey","Tobias Regner"
+"Giovanna D'Adda","Martin Dufwenberg"
+"Giovanna D'Adda","Francesco Passarelli"
+"Giovanna D'Adda","Guido Tabellini"
+"Martin Dufwenberg","Francesco Passarelli"
+"Martin Dufwenberg","Guido Tabellini"
+"Francesco Passarelli","Guido Tabellini"
+"Greg DeAngelo","Perry Ferrell"
+"Greg DeAngelo","Bryan McCannon"
+"Perry Ferrell","Bryan McCannon"
+"Sascha Behnk","Li Hao"
+"Sascha Behnk","Ernesto Reuben"
+"Li Hao","Ernesto Reuben"
+"Hezhi Chen","Zhijia Zeng"
+"Hezhi Chen","Jianhong Ma"
+"Zhijia Zeng","Jianhong Ma"
+"Gordon Kraft-Todd","David Rand"
+"Eugen Dimant","Cristina Bicchieri"
+"Eugen Dimant","Erte Xiao"
+"Cristina Bicchieri","Erte Xiao"
+"Cristina Bicchieri","Eugen Dimant"
+"Cristina Bicchieri","Silvia Sonderegger"
+"Eugen Dimant","Silvia Sonderegger"
+"Kate Farrow","Gilles Grolleau"
+"Kate Farrow","Lisette Ibanez"
+"Gilles Grolleau","Lisette Ibanez"
+"Christoph Engel","Michael Kurschilgen"
+"Moya Miller","Molla Ubeda"
+"Florian Diekert","Tillmann Eymess"
+"Florian Diekert","Joseph Luomba"
+"Florian Diekert","Israel Waichman"
+"Tillmann Eymess","Joseph Luomba"
+"Tillmann Eymess","Israel Waichman"
+"Joseph Luomba","Israel Waichman"
+"Alex K. Chavez","Cristina Bicchieri"
+"Cristina Bicchieri","Eugen Dimant"
+"Klaus Abbink","Esteban Freidin"
+"Klaus Abbink","Lata Gangadharan"
+"Klaus Abbink","Rodrigo Moro"
+"Esteban Freidin","Lata Gangadharan"
+"Esteban Freidin","Rodrigo Moro"
+"Lata Gangadharan","Rodrigo Moro"
+"Björn Bartling","Ernst Fehr"
+"Björn Bartling","Yagiz Özdemir"
+"Ernst Fehr","Yagiz Özdemir"
+"Felix Kolle","Simone Quercia"
+"Adrian Chadi","Mario Mechtel"
+"Adrian Chadi","Vanessa Mertins"
+"Mario Mechtel","Vanessa Mertins"
+"Simon Columbus","Robert Böhm"
+"Catherine Eckel","Hanna Hoover"
+"Catherine Eckel","Erin Krupka"
+"Catherine Eckel","Oluwagbemiga Ojumu"
+"Catherine Eckel","Tanya Rosenblat"
+"Catherine Eckel","Nishita Sinha"
+"Catherine Eckel","Rick K. Wilson"
+"Hanna Hoover","Erin Krupka"
+"Hanna Hoover","Oluwagbemiga Ojumu"
+"Hanna Hoover","Tanya Rosenblat"
+"Hanna Hoover","Nishita Sinha"
+"Hanna Hoover","Rick K. Wilson"
+"Erin Krupka","Oluwagbemiga Ojumu"
+"Erin Krupka","Tanya Rosenblat"
+"Erin Krupka","Nishita Sinha"
+"Erin Krupka","Rick K. Wilson"
+"Oluwagbemiga Ojumu","Tanya Rosenblat"
+"Oluwagbemiga Ojumu","Nishita Sinha"
+"Oluwagbemiga Ojumu","Rick K. Wilson"
+"Tanya Rosenblat","Nishita Sinha"
+"Tanya Rosenblat","Rick K. Wilson"
+"Nishita Sinha","Rick K. Wilson"
+"Alice Guerra","Tatyana Zhuravleva"
+"Edward Lazear","Ulrike Malmendier"
+"Edward Lazear","Roberto Weber"
+"Ulrike Malmendier","Roberto Weber"
+"Eugen Dimant","Gerben A van Kleef"
+"Eugen Dimant","Shaul Shalvi"
+"Gerben A van Kleef","Shaul Shalvi"
+"Aron Szekely","Francesca Lipari"
+"Aron Szekely","Alberto Antonioni"
+"Aron Szekely","Mario Paolucci"
+"Aron Szekely","Angel Sanchez"
+"Aron Szekely","Luca Tummolini"
+"Aron Szekely","Giulia Andrighetto"
+"Francesca Lipari","Alberto Antonioni"
+"Francesca Lipari","Mario Paolucci"
+"Francesca Lipari","Angel Sanchez"
+"Francesca Lipari","Luca Tummolini"
+"Francesca Lipari","Giulia Andrighetto"
+"Alberto Antonioni","Mario Paolucci"
+"Alberto Antonioni","Angel Sanchez"
+"Alberto Antonioni","Luca Tummolini"
+"Alberto Antonioni","Giulia Andrighetto"
+"Mario Paolucci","Angel Sanchez"
+"Mario Paolucci","Luca Tummolini"
+"Mario Paolucci","Giulia Andrighetto"
+"Angel Sanchez","Luca Tummolini"
+"Angel Sanchez","Giulia Andrighetto"
+"Luca Tummolini","Giulia Andrighetto"
+"Denis Tverskoi","Andrea Guido"
+"Denis Tverskoi","Giulia Andrighetto"
+"Denis Tverskoi","Angel Sanchez"
+"Denis Tverskoi","Sergey Gavrilets"
+"Andrea Guido","Giulia Andrighetto"
+"Andrea Guido","Angel Sanchez"
+"Andrea Guido","Sergey Gavrilets"
+"Giulia Andrighetto","Angel Sanchez"
+"Giulia Andrighetto","Sergey Gavrilets"
+"Angel Sanchez","Sergey Gavrilets"

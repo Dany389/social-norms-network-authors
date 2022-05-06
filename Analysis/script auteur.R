@@ -32,7 +32,10 @@ names(AuthorEdges) <- NULL
 AuthorEdges <- trimws(AuthorEdges)
 AuthorGraph <- graph(AuthorEdges, directed = FALSE) # igraph - we input the edge list (taken two by two)
 
-
+### PROBLEM HERE =readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
+nodes <- read.csv("nodes.csv") %>% merge.data.frame(suca)
+edges <- read.csv("edges.csv")
+AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
 
 ####################################################
 # method KW
@@ -51,12 +54,14 @@ Nodes <- data.frame(id=as_ids(V(AuthorGraph)), label=as_ids(V(AuthorGraph))) %>%
 Edges <- data.frame(matrix(AuthorEdges, ncol=2, byrow = T))
 colnames(Edges) <- c("from", "to")
 
-plot_net <- visNetwork(Nodes, Edges) %>% 
+
+
+plot_net <- visNetwork(nodes, edges) %>% 
   #visIgraphLayout(layout = "layout_with_fr") %>% 
   visOptions(highlightNearest = list(enabled = T, hover = T), 
              nodesIdSelection = T) 
 
-#visNetwork(Nodes, Edges, height = "500px") %>% visIgraphLayout() %>% visNodes(size= 10)
+visNetwork(nodes, edges) %>% visIgraphLayout() %>% visNodes(size= 10)
 
 visIgraph(AuthorGraph, physics = FALSE, smooth = TRUE)
 
@@ -72,11 +77,11 @@ plot(AuthorGraph, vertex.label.color="black", vertex.size=2.5,
     # pch=19, cex=1.2, col="blue", xlab = "Degree", ylab="Cumulative Frequency")
 
 #histo degree
-hist(degree(AuthorGraph), breaks=1:vcount(AuthorGraph)-1, main="Histogram")
+hist(degree(AuthorGraph), breaks=0:50, main="Histogram")
 
 #analyse descriptive
 degree(AuthorGraph, mode="all")
-degree_distribution(AuthorGraph, cumulative=T, mode="all")
+plot(y=degree_distribution(AuthorGraph, cumulative=T, mode="all"), x=0:26)
 centr_degree(AuthorGraph, mode="all", normalized = T)
 
 closeness(AuthorGraph, mode="all", weights=NA)
@@ -118,6 +123,16 @@ plot(cluster_edge_betweenness(AuthorGraph), AuthorGraph,
 plot(cluster_label_prop(AuthorGraph), AuthorGraph)
 plot(cluster_label_prop(AuthorGraph), AuthorGraph, vertex.label.color="black", 
      vertex.size=2.5, vertex.label.cex=0.5, vertex.label.dist=2, vertex.color="blue" )
+
+#Louvain Comunity Detection
+cluster <- cluster_louvain(AuthorGraph)
+cluster_df <- data.frame(as.list(membership(cluster)))
+cluster_df <- as.data.frame(t(cluster_df))
+cluster_df$id <- rownames(cluster_df)
+
+nodes <- merge(x = nodes, y = cluster_df, by = "id", all.x = TRUE)
+colnames(nodes)[3] <- "group"
+visNetwork(nodes, edges)
 
 ## importation data auteurs
 authors_data <- readxl::read_excel("authors.xlsx", sheet = "Sheet1") %>%
