@@ -1,341 +1,340 @@
-"id"
-"Erin Krupka"
-"Roberto Weber"
-"Simon Gachter"
-"Daniele Nosenzo"
-"Martin Sefton"
-"Erik Kimbrough"
-"Alexander Vostroknutov"
-"Uri Gneezy"
-"Alex Imas"
-"Kristóf Madarász"
-"Jeffrey Carpenter"
-"Erik Gong"
-"Stephen Burks"
-"Sthephen Leider"
-"Ming Jiang"
-"Christine L. Exley"
-"Muriel Niederle"
-"Lise Vesterlund"
-"Alain Cohn"
-"Michel André Maréchal"
-"David Tannenbaum"
-"Christian Lukas Zünd"
-"Lata Gangadharan"
-"Tarun Jain"
-"Pushkar Maitra"
-"Joseph Vecci"
-"Leonie Gerhards"
-"Giovanna D'Adda"
-"Donja Darai"
-"Nicola Pavanini"
-"Hande Erkut"
-"Abigail Barr"
-"Tom Lane"
-"Stepan Vesely"
-"Christian Klöckner"
-"Utteeyo Dasgupta"
-"Subha Mani"
-"Michal Bauer"
-"Jana Cahlíková"
-"Julie Chytilová"
-"Tomáš Želinský"
-"Daphne Chang"
-"Eytan Adar"
-"Alessandro Acquisti"
-"Nikos Nikiforakis"
-"Jörg Oechssler"
-"Anwar Shah"
-"Klaus Abbink"
-"Toby Handfield"
-"John Thrasher"
-"Michalis Drouvelis"
-"Andreas Kappes"
-"Anne-Marie Nussberger"
-"Nadira Faber"
-"Guy Kahane"
-"Julian Savulescu"
-"Molly Crockett"
-"Simon Felgendreher"
-"Åsa Löfgren"
-"Roy Chen"
-"Ellen Garbarino"
-"Robert Slonim"
-"Marie Claire Villeval"
-"Kay J. Thomsson"
-"Michal Krawczyk"
-"Joanna Tyrowicz"
-"Anna Kukla-Gryz"
-"Wojciech Hardy"
-"Björn Bartling"
-"Yagiz Özdemir"
-"Cristina Bicchieri"
-"Eugen Dimant"
-"Gary Bolton"
-"Ulrich Schmidt"
-"Giuseppe Attanasi"
-"Claire Rimbaud"
-"Judd Kessler"
-"Nives Della Valle"
-"Matteo Ploner"
-"Joshua Miller"
-"Marco Faillo"
-"Matteo Rizzolli"
-"Stephan Tontrup"
-"Timo Goeschl"
-"Sara Elisa Kettner"
-"Johannes Lohse"
-"Christiane Schwieren"
-"Mark Bernard"
-"Ernesto Reuben"
-"Arno Riedl"
-"Simon Bartke"
-"Steven J. Bosworth"
-"Dennis J. Snower"
-"Gabriele Chierchia"
-"Aidin Hajikhameneh"
-"Louise Grogan"
-"Fraser Summerfield"
-"Lasse Loft"
-"Stefan Gehrig"
-"Dung Ngoc Le"
-"Jens Rommel"
-"Johannes König"
-"Levent Neyse"
-"Carsten Schröder"
-"Erik Wengström"
-"Folco Panizza"
-"Giorgio Coricelli"
-"Felix Kolle"
-"Chris Starmer"
-"Kathrin Dengler-Roscher"
-"Natalia Montinari"
-"Marian Panganiban"
-"Benedikt Werner"
-"Seungjun Ahn"
-"Byungjoo Choi"
-"SangHyun Lee"
-"Kai Barron"
-"Robert Stüber"
-"Roel van Veldhuizen"
-"Nils Köbis"
-"Marleen Troost"
-"Cyril Brandt"
-"Ivan Soraperra"
-"Arthur Schram"
-"Jin Di Zheng"
-"Tatyana Zhuravleva"
-"Mark Pickup"
-"Eline de Rooij"
-"Marius Alt"
-"Carlo Gallier"
-"Achim Schluter"
-"Katherine Nelson"
-"Eva Anggraini"
-"Tobias Gesche"
-"Ruth Beer"
-"Ignacio Andres Rios"
-"Daniela Saban"
-"Markus Sass"
-"Florian Timme"
-"Joachim Weimann"
-"Michael Kurschilgen"
-"Isabel Marcin"
-"Francesco Fallucchi"
-"Leonard Hoeft"
-"Wladislaw Mill"
-"Christoph Engel"
-"Luigi Mittone"
-"Azzurra Morreale"
-"Eryk Krysowski"
-"James Tremewan"
-"Hanna Fromell"
-"Trudy Owens"
-"Fabio Tufano"
-"Ritwik Banerjee"
-"Tushi Baul"
-"Tanya Rosenblat"
-"Bachir Kassas"
-"Marco Palma"
-"J. Jobu Babin"
-"Andrew Hussey"
-"Alex Nikolsko-Rzhevskyy"
-"David A. Taylor"
-"Peilu Zhang"
-"Yinjunjie Zhang"
-"Fabio Galeotti"
-"Valentina Maggian"
-"Kristina Czura"
-"Anett John"
-"Lisa Spantig"
-"Prasenjit Banerjee"
-"Vegard Iversen"
-"Sandip Mitra"
-"Antonio Nicolò"
-"Kunal Sen"
-"Adam Isen"
-"Benjamin M. Marx"
-"Robert Schmidt"
-"Alec N. Sproten"
-"Alisa Frik"
-"Katherine B. Coffman"
-"Marleen Dekker"
-"Floyd Mwansa"
-"Tia Linda Zuze"
-"Per A. Andersson"
-"Arvid Erlandsson"
-"Daniel Vastfjall"
-"Gustav Tinghog"
-"Matthias Lang"
-"Simeon Schudy"
-"Blaine Robbins"
-"Aaron Kamm"
-"Daniel Karell"
-"Simon Siegenthaler"
-"Rustam Romaniuc"
-"Dimitri Dubois"
-"Adrian Lupusor"
-"Valerio Prohnitchi"
-"Iftekhar Hasan"
-"Felix Noth"
-"Lena Tonzer"
-"Jennifer M. Murray"
-"Abhijit Ramalingam"
-"Rajnish Kumar"
-"Joanna McHugh Power"
-"Sharon Sanchez-Franco"
-"Olga L. Sarmiento"
-"Frank Kee"
-"Ruth F. Hunter"
-"Toke Fosgaard"
-"Lars Garn Hansen"
-"Christoph Rossler"
-"Hannes Rusch"
-"Tim Friehe"
-"Robert Hoffmann"
-"Janneke Blijlevens"
-"Swee-Hoon Chuah"
-"Ananta Neelim"
-"Joanne Peryman"
-"Ahmed Skali"
-"Andreas Ziegler"
-"Giorgia Romagnoli"
-"Theo Offerman"
-"Christoph Huber"
-"Jürgen Huber"
-"Giuseppe Dari-Mattiacci"
-"Marco Fabbri"
-"Fortuna Casoria"
-"Stefan Bechtold"
-"Gabriel Gertsch"
-"Martin Schonger"
-"Lea Petters"
-"Marina Schröder"
-"Marta Serra-Garcia"
-"Nora Szech"
-"Zvonimir Bašic"
-"Eugenio Verrina"
-"Maximiliano Senci"
-"Brenda Elizabeth Ryan"
-"Natalia Gregorietti"
-"Esteban Freidin"
-"Danae Arroyos-Calvera"
-"Rebecca McDonald"
-"Sabrina Jeworrek"
-"Vanessa Mertins"
-"Michael Vlassopoulos"
-"Jingnan Chena"
-"Miguel Fonseca"
-"Shaun Grimshaw"
-"Rupayan Pal"
-"Ada Wossink"
-"James Asher"
-"Thomas Busera"
-"Eva Ranehill"
-"Joschka Waibel"
-"Arno Apffelstaedt"
-"Jana Freundt"
-"Christoph Oslislo"
-"Erte Xiao"
-"Marco Catola"
-"Simone D’Alessandro"
-"Pietro Guarnieri"
-"Veronica Pizziol"
-"Stefania Ottone"
-"Lorenzo Sacconi"
-"Daniel Iragorri-Carter"
-"Christopher Starke"
-"Astrid Matthey"
-"Tobias Regner"
-"Martin Dufwenberg"
-"Francesco Passarelli"
-"Guido Tabellini"
-"Greg DeAngelo"
-"Perry Ferrell"
-"Bryan McCannon"
-"Sascha Behnk"
-"Li Hao"
-"Hezhi Chen"
-"Zhijia Zeng"
-"Jianhong Ma"
-"Gordon Kraft-Todd"
-"David Rand"
-"Silvia Sonderegger"
-"Kate Farrow"
-"Gilles Grolleau"
-"Lisette Ibanez"
-"Moya Miller"
-"Molla Ubeda"
-"Florian Diekert"
-"Tillmann Eymess"
-"Joseph Luomba"
-"Israel Waichman"
-"Alex K. Chavez"
-"Rodrigo Moro"
-"Ernst Fehr"
-"Simone Quercia"
-"Adrian Chadi"
-"Mario Mechtel"
-"vanessa Mertins"
-"Simon Columbus"
-"Robert Böhm"
-"Catherine Eckel"
-"Hanna Hoover"
-"Oluwagbemiga Ojumu"
-"Nishita Sinha"
-"Rick K. Wilson"
-"Alice Guerra"
-"Edward Lazear"
-"Ulrike Malmendier"
-"Gerben A van Kleef"
-"Shaul Shalvi"
-"Aron Szekely"
-"Francesca Lipari"
-"Alberto Antonioni"
-"Mario Paolucci"
-"Angel Sanchez"
-"Luca Tummolini"
-"Giulia Andrighetto"
-"Denis Tverskoi"
-"Andrea Guido"
-"Sergey Gavrilets"
-"Sigve Tjøtta"
-"Silvia Fernandez Castro"
-"Mario Scharfbillig"
-"Michela Boldrini"
-"Vasileios Kotsidis"
-"Felix Klimm"
-"Claire Cullen"
-"Ivo Schurtenberger"
-"Benjamin Hausinger"
-"Nina Serdarevic"
-"Christian König-Kersting"
-"Kamilla Haworth Buchter"
-"Nan Zhang"
-"Trevor Hannesson Kvaran"
-"Iryna Momotenko"
-"Jeffrey R. Dewitt"
-"Robert Mayo"
-"Jon Reiersen"
-"Stefan Grimm"
-"John List"
+id
+Erin Krupka
+Roberto Weber
+Simon Gachter
+Daniele Nosenzo
+Martin Sefton
+Erik Kimbrough
+Alexander Vostroknutov
+Uri Gneezy
+Alex Imas
+Kristóf Madarász
+Jeffrey Carpenter
+Erik Gong
+Stephen Burks
+Sthephen Leider
+Ming Jiang
+Christine L. Exley
+Muriel Niederle
+Lise Vesterlund
+Alain Cohn
+Michel André Maréchal
+David Tannenbaum
+Christian Lukas Zünd
+Lata Gangadharan
+Tarun Jain
+Pushkar Maitra
+Joseph Vecci
+Leonie Gerhards
+Giovanna D'Adda
+Donja Darai
+Nicola Pavanini
+Hande Erkut
+Abigail Barr
+Tom Lane
+Stepan Vesely
+Christian Klöckner
+Utteeyo Dasgupta
+Subha Mani
+Michal Bauer
+Jana Cahlíková
+Julie Chytilová
+Tomá? ?elinský
+Daphne Chang
+Eytan Adar
+Alessandro Acquisti
+Nikos Nikiforakis
+Jörg Oechssler
+Anwar Shah
+Klaus Abbink
+Toby Handfield
+John Thrasher
+Michalis Drouvelis
+Andreas Kappes
+Anne-Marie Nussberger
+Nadira Faber
+Guy Kahane
+Julian Savulescu
+Molly Crockett
+Simon Felgendreher
+Åsa Löfgren
+Roy Chen
+Ellen Garbarino
+Robert Slonim
+Marie Claire Villeval
+Kay J. Thomsson
+Michal Krawczyk
+Joanna Tyrowicz
+Anna Kukla-Gryz
+Wojciech Hardy
+Björn Bartling
+Yagiz Özdemir
+Cristina Bicchieri
+Eugen Dimant
+Gary Bolton
+Ulrich Schmidt
+Giuseppe Attanasi
+Claire Rimbaud
+Judd Kessler
+Nives Della Valle
+Matteo Ploner
+Joshua Miller
+Marco Faillo
+Matteo Rizzolli
+Stephan Tontrup
+Timo Goeschl
+Sara Elisa Kettner
+Johannes Lohse
+Christiane Schwieren
+Mark Bernard
+Ernesto Reuben
+Arno Riedl
+Simon Bartke
+Steven J. Bosworth
+Dennis J. Snower
+Gabriele Chierchia
+Aidin Hajikhameneh
+Louise Grogan
+Fraser Summerfield
+Lasse Loft
+Stefan Gehrig
+Dung Ngoc Le
+Jens Rommel
+Johannes König
+Levent Neyse
+Carsten Schröder
+Erik Wengström
+Folco Panizza
+Giorgio Coricelli
+Felix Kolle
+Chris Starmer
+Kathrin Dengler-Roscher
+Natalia Montinari
+Marian Panganiban
+Benedikt Werner
+Seungjun Ahn
+Byungjoo Choi
+SangHyun Lee
+Kai Barron
+Robert Stüber
+Roel van Veldhuizen
+Nils Köbis
+Marleen Troost
+Cyril Brandt
+Ivan Soraperra
+Arthur Schram
+Jin Di Zheng
+Tatyana Zhuravleva
+Mark Pickup
+Eline de Rooij
+Marius Alt
+Carlo Gallier
+Achim Schluter
+Katherine Nelson
+Eva Anggraini
+Tobias Gesche
+Ruth Beer
+Ignacio Andres Rios
+Daniela Saban
+Markus Sass
+Florian Timme
+Joachim Weimann
+Michael Kurschilgen
+Isabel Marcin
+Francesco Fallucchi
+Leonard Hoeft
+Wladislaw Mill
+Christoph Engel
+Luigi Mittone
+Azzurra Morreale
+Eryk Krysowski
+James Tremewan
+Hanna Fromell
+Trudy Owens
+Fabio Tufano
+Ritwik Banerjee
+Tushi Baul
+Tanya Rosenblat
+Bachir Kassas
+Marco Palma
+J. Jobu Babin
+Andrew Hussey
+Alex Nikolsko-Rzhevskyy
+David A. Taylor
+Peilu Zhang
+Yinjunjie Zhang
+Fabio Galeotti
+Valentina Maggian
+Kristina Czura
+Anett John
+Lisa Spantig
+Prasenjit Banerjee
+Vegard Iversen
+Sandip Mitra
+Antonio Nicolò
+Kunal Sen
+Adam Isen
+Benjamin M. Marx
+Robert Schmidt
+Alec N. Sproten
+Alisa Frik
+Katherine B. Coffman
+Marleen Dekker
+Floyd Mwansa
+Tia Linda Zuze
+Per A. Andersson
+Arvid Erlandsson
+Daniel Vastfjall
+Gustav Tinghog
+Matthias Lang
+Simeon Schudy
+Blaine Robbins
+Aaron Kamm
+Daniel Karell
+Simon Siegenthaler
+Rustam Romaniuc
+Dimitri Dubois
+Adrian Lupusor
+Valerio Prohnitchi
+Iftekhar Hasan
+Felix Noth
+Lena Tonzer
+Jennifer M. Murray
+Abhijit Ramalingam
+Rajnish Kumar
+Joanna McHugh Power
+Sharon Sanchez-Franco
+Olga L. Sarmiento
+Frank Kee
+Ruth F. Hunter
+Toke Fosgaard
+Lars Garn Hansen
+Christoph Rossler
+Hannes Rusch
+Tim Friehe
+Robert Hoffmann
+Janneke Blijlevens
+Swee-Hoon Chuah
+Ananta Neelim
+Joanne Peryman
+Ahmed Skali
+Andreas Ziegler
+Giorgia Romagnoli
+Theo Offerman
+Christoph Huber
+Jürgen Huber
+Giuseppe Dari-Mattiacci
+Marco Fabbri
+Fortuna Casoria
+Stefan Bechtold
+Gabriel Gertsch
+Martin Schonger
+Lea Petters
+Marina Schröder
+Marta Serra-Garcia
+Nora Szech
+Zvonimir Ba?ic
+Eugenio Verrina
+Maximiliano Senci
+Brenda Elizabeth Ryan
+Natalia Gregorietti
+Esteban Freidin
+Danae Arroyos-Calvera
+Rebecca McDonald
+Sabrina Jeworrek
+Vanessa Mertins
+Michael Vlassopoulos
+Jingnan Chena
+Miguel Fonseca
+Shaun Grimshaw
+Rupayan Pal
+Ada Wossink
+James Asher
+Thomas Busera
+Eva Ranehill
+Joschka Waibel
+Arno Apffelstaedt
+Jana Freundt
+Christoph Oslislo
+Erte Xiao
+Marco Catola
+Simone D?Alessandro
+Pietro Guarnieri
+Veronica Pizziol
+Stefania Ottone
+Lorenzo Sacconi
+Daniel Iragorri-Carter
+Christopher Starke
+Astrid Matthey
+Tobias Regner
+Martin Dufwenberg
+Francesco Passarelli
+Guido Tabellini
+Greg DeAngelo
+Perry Ferrell
+Bryan McCannon
+Sascha Behnk
+Li Hao
+Hezhi Chen
+Zhijia Zeng
+Jianhong Ma
+Gordon Kraft-Todd
+David Rand
+Silvia Sonderegger
+Kate Farrow
+Gilles Grolleau
+Lisette Ibanez
+Moya Miller
+Molla Ubeda
+Florian Diekert
+Tillmann Eymess
+Joseph Luomba
+Israel Waichman
+Alex K. Chavez
+Rodrigo Moro
+Ernst Fehr
+Simone Quercia
+Adrian Chadi
+Mario Mechtel
+Simon Columbus
+Robert Böhm
+Catherine Eckel
+Hanna Hoover
+Oluwagbemiga Ojumu
+Nishita Sinha
+Rick K. Wilson
+Alice Guerra
+Edward Lazear
+Ulrike Malmendier
+Gerben A van Kleef
+Shaul Shalvi
+Aron Szekely
+Francesca Lipari
+Alberto Antonioni
+Mario Paolucci
+Angel Sanchez
+Luca Tummolini
+Giulia Andrighetto
+Denis Tverskoi
+Andrea Guido
+Sergey Gavrilets
+Sigve Tjøtta
+Silvia Fernandez Castro
+Mario Scharfbillig
+Michela Boldrini
+Vasileios Kotsidis
+Felix Klimm
+Claire Cullen
+Ivo Schurtenberger
+Benjamin Hausinger
+Nina Serdarevic
+Christian König-Kersting
+Kamilla Haworth Buchter
+Nan Zhang
+Trevor Hannesson Kvaran
+Iryna Momotenko
+Jeffrey R. Dewitt
+Robert Mayo
+Jon Reiersen
+Stefan Grimm
+John List
