@@ -38,22 +38,23 @@ write.csv(Nodes, "nodes.csv", row.names = F)
 
 ####################################################
 # method KW
-l_method <- list()
-for(i in 1:length(authors_n$Method_elicitation)){
-  l_method[[i]] <- data.frame(id=SplitAuthors[[i]], method=rep(authors_n$Method_elicitation[i],authors_n$numberoauthors[i]))
-}
-l_method_sum <- do.call(rbind, l_method) %>% group_by(id) %>% summarise(n_KW=sum(method=="KW")+sum(method=="Both"),n_BX=sum(method=="Bicchieri")+sum(method=="Both")) %>% mutate(d=(n_KW-n_BX)/(n_KW+n_BX))
-
-Nodes <- data.frame(id=as_ids(V(AuthorGraph)), label=as_ids(V(AuthorGraph))) %>%
-  merge.data.frame(l_method_sum) %>% 
-  mutate(color = ifelse(d < -.5, "blue",ifelse(d < -.01, "grey", ifelse(d < .5, "green", "red")))) %>% 
-  mutate(title = paste0("<p><b>", id,"</b><br>","Bicchieri = ", n_BX, "<br> Krupka = ", n_KW, "</p>"))
-
-
-Edges <- data.frame(matrix(AuthorEdges, ncol=2, byrow = T))
-colnames(Edges) <- c("from", "to")
-
-plot_net <- visNetwork(Nodes, Edges) %>% 
-  #visIgraphLayout(layout = "layout_with_fr") %>% 
-  visOptions(highlightNearest = list(enabled = T, hover = T), 
-             nodesIdSelection = T) 
+#l_method <- list()
+#for(i in 1:length(authors_n$Method_elicitation)){
+#  l_method[[i]] <- data.frame(id=SplitAuthors[[i]], method=rep(authors_n$Method_elicitation[i],authors_n$numberoauthors[i]))
+#}
+#l_method_sum <- do.call(rbind, l_method) %>% group_by(id) %>% summarise(n_KW=sum(method=="KW")+sum(method=="Both"),n_BX=sum(method=="Bicchieri")+sum(method=="Both")) %>% mutate(d=(n_KW-n_BX)/(n_KW+n_BX))
+#
+#Nodes <- data.frame(id=as_ids(V(AuthorGraph)), label=as_ids(V(AuthorGraph))) %>%
+#  merge.data.frame(l_method_sum) %>% 
+#  mutate(color = ifelse(d < -.5, "blue",ifelse(d < -.01, "grey", ifelse(d < .5, "green", "red")))) %>% 
+#  mutate(title = paste0("<p><b>", id,"</b><br>","Bicchieri = ", n_BX, "<br> Krupka = ", n_KW, "</p>"))
+#
+#
+#Edges <- data.frame(matrix(AuthorEdges, ncol=2, byrow = T))
+#colnames(Edges) <- c("from", "to")
+#
+#plot_net <- visNetwork(Nodes, Edges) %>% 
+#  #visIgraphLayout(layout = "layout_with_fr") %>% 
+#  visOptions(highlightNearest = list(enabled = T, hover = T), 
+#             nodesIdSelection = T) 
+#
