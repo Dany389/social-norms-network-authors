@@ -9,9 +9,10 @@ rm(list=ls())
 
 setwd("../")
 
-# import network data
+# import network data -----
 node_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
-nodes <- read.csv("nodes.csv") %>% merge.data.frame(node_attributes)
+nodes <- read.csv("nodes.csv") %>% merge.data.frame(node_attributes, all.x = T)
+
 edges <- read.csv("edges.csv")
 AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
 
@@ -32,9 +33,12 @@ plot_data=toVisNetworkData(AuthorGraph)
 #  visOptions(highlightNearest = list(enabled = T, hover = T), 
 #             nodesIdSelection = T) 
 
-visNetwork(plot_data$nodes, plot_data$edges) %>% visIgraphLayout() %>% visNodes(size= 10)
+visNetwork(plot_data$nodes%>% 
+             mutate(value=h_index*60, 
+                    group=eco_psycho) %>% mutate(value=replace(value, is.na(value), 1)), 
+           plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout()
 
-#for a cumulative graph, not really useful
+  #for a cumulative graph, not really useful
 #plot(x=0:max(degree(AuthorGraph, mode="all")),
     # y=1-degree_distribution(AuthorGraph, cumulative=T, mode="all"),
     # pch=19, cex=1.2, col="blue", xlab = "Degree", ylab="Cumulative Frequency")
@@ -42,36 +46,37 @@ visNetwork(plot_data$nodes, plot_data$edges) %>% visIgraphLayout() %>% visNodes(
 
 
 
-# Network analyses
+# Network analyses ---------------
 
 #histo degree
 
-hist(degree(AuthorGraph), breaks=0:50, main="Histogram")
+hist(degree(AuthorGraph), breaks=0:30, main="Histogram")
 
 #analyse descriptive
-degree(AuthorGraph, mode="all")
-plot(y=degree_distribution(AuthorGraph, cumulative=T, mode="all"), x=0:26)
 centr_degree(AuthorGraph, mode="all", normalized = T)
-
 closeness(AuthorGraph, mode="all", weights=NA)
 centr_clo(AuthorGraph, mode="all", normalized = T)
 
 eigen_centrality(AuthorGraph)
-centr_eigen(AuthorGraph, directed=F, normalized=T)
+eigen=centr_eigen(AuthorGraph, directed=F, normalized=T)
 
-betweenness(AuthorGraph, directed=F, weights=NA)
-edge_betweenness(AuthorGraph, directed=F, weights=NA)
-centr_betw(AuthorGraph, directed=F, normalized=T)
+#betweenness(AuthorGraph, directed=F, weights=NA)
+#edge_betweenness(AuthorGraph, directed=F, weights=NA)
+#centr_betw(AuthorGraph, directed=F, normalized=T)
 
-diameter(AuthorGraph, directed=F, weights=NA)
-get_diameter(AuthorGraph)
+#diameter(AuthorGraph, directed=F, weights=NA)
+#get_diameter(AuthorGraph)
 
-transitivity(AuthorGraph, type="local")
+#transitivity(AuthorGraph, type="local")
 transitivity(AuthorGraph, type="global")
 
 edge_density(AuthorGraph)
 
-assortativity_degree(AuthorGraph, directed=F)
+# are popular nodes (with many degrees) connected with each other?
+assortativity_degree(AuthorGraph, directed=F) # yes but not too much
+
+# are authors of the same h_index connected among themselves?
+assortativity(AuthorGraph, V(AuthorGraph)$h_index%>%replace_na(0), directed=F) # yes but not too much
 
 #Pour avoir la clique
 cliques(AuthorGraph)
@@ -82,7 +87,7 @@ vcol[unlist(largest.cliques(AuthorGraph))] <- "gold"
 plot(AuthorGraph, vertex.label=V(AuthorGraph)$name, vertex.color=vcol, vertex.size=3.5, vertex.label.cex=0.5)
 
 #Community
-cluster_edge_betweenness(AuthorGraph)
+x=cluster_edge_betweenness(AuthorGraph)
 dendPlot(cluster_edge_betweenness(AuthorGraph))
 
 plot(cluster_edge_betweenness(AuthorGraph), AuthorGraph, 
@@ -111,3 +116,85 @@ authors_data <- readxl::read_excel("authors.xlsx", sheet = "Sheet1") %>%
 
 
 
+
+
+# Network evolution ------------
+
+## 2013 ----
+rm(list = ls())
+node_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
+nodes <- read.csv("nodes_2013.csv") %>% merge.data.frame(node_attributes, all.x = T)
+
+edges <- read.csv("edges_2013.csv")
+AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
+
+# Create edge weight
+E(AuthorGraph)$weight <- 1 # any nmbr
+AuthorGraph <- igraph::simplify(AuthorGraph, remove.multiple = T, remove.loops = F, edge.attr.comb = list(weight="sum"))
+
+# plot the graph
+plot_data=toVisNetworkData(AuthorGraph)
+
+plot_2013 <- visNetwork(plot_data$nodes%>% 
+             mutate(value=h_index*60, 
+                    group=eco_psycho) %>% mutate(value=replace(value, is.na(value), 1)), 
+           plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout()
+
+## 2015 ----
+
+node_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
+nodes <- read.csv("nodes_2015.csv") %>% merge.data.frame(node_attributes, all.x = T)
+
+edges <- read.csv("edges_2015.csv")
+AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
+
+# Create edge weight
+E(AuthorGraph)$weight <- 1 # any nmbr
+AuthorGraph <- igraph::simplify(AuthorGraph, remove.multiple = T, remove.loops = F, edge.attr.comb = list(weight="sum"))
+
+# plot the graph
+plot_data=toVisNetworkData(AuthorGraph)
+
+plot_2015 <- visNetwork(plot_data$nodes%>% 
+                          mutate(value=h_index*60, 
+                                 group=eco_psycho) %>% mutate(value=replace(value, is.na(value), 1)), 
+                        plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout()
+## 2018 ----
+
+node_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
+nodes <- read.csv("nodes_2018.csv") %>% merge.data.frame(node_attributes, all.x = T)
+
+edges <- read.csv("edges_2018.csv")
+AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
+
+# Create edge weight
+E(AuthorGraph)$weight <- 1 # any nmbr
+AuthorGraph <- igraph::simplify(AuthorGraph, remove.multiple = T, remove.loops = F, edge.attr.comb = list(weight="sum"))
+
+# plot the graph
+plot_data=toVisNetworkData(AuthorGraph)
+
+plot_2018 <- visNetwork(plot_data$nodes%>% 
+                          mutate(value=h_index*60, 
+                                 group=eco_psycho) %>% mutate(value=replace(value, is.na(value), 1)), 
+                        plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout()
+
+## 2020 ----
+#rm(list = ls())
+node_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
+nodes <- read.csv("nodes_2020.csv") %>% merge.data.frame(node_attributes, all.x = T)
+
+edges <- read.csv("edges_2020.csv")
+AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
+
+# Create edge weight
+E(AuthorGraph)$weight <- 1 # any nmbr
+AuthorGraph <- igraph::simplify(AuthorGraph, remove.multiple = T, remove.loops = F, edge.attr.comb = list(weight="sum"))
+
+# plot the graph
+plot_data=toVisNetworkData(AuthorGraph)
+
+plot_2020 <- visNetwork(plot_data$nodes%>% 
+                          mutate(value=h_index*60, 
+                                 group=eco_psycho) %>% mutate(value=replace(value, is.na(value), 1)), 
+                        plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout()

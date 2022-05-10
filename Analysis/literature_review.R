@@ -10,12 +10,17 @@ setwd("../")
 
 # read data 
 master <- readxl::read_xlsx(path = "Social Norms meta.xlsx", sheet = "ALL")
+master_methods <- readxl::read_excel("Social Norms meta.xlsx", sheet = "ALL") %>%
+  subset.data.frame(subset = Method_elicitation =="KW" | 
+                     Method_elicitation =="Bicchieri" | 
+                    Method_elicitation =="Both") %>%
+  distinct(PaperID, .keep_all = T) %>% subset.data.frame(select = c("PaperID", "Authors", "Year", "Outlet", "Published", "Game_type", "Method_elicitation")) 
+authors_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
 
-# word cloud analysis
+# text analysis -------------
+ords <- master %>% group_by(PaperID) %>% arrange(PaperID) %>%filter(row_number()==1)%>% ungroup() %>% select(Keywords) %>% sapply(str_split, pattern=";") %>% unlist()
 
-keywords <- master %>% group_by(PaperID) %>% arrange(PaperID) %>%filter(row_number()==1)%>% ungroup() %>% select(Keywords) %>% sapply(str_split, pattern=";") %>% unlist()
-
-docs <- VCorpus(VectorSource(keywords))
+docs <- VCorpus(VectorSource(ords))
 #toSpace <- content_transformer(function (x , pattern ) gsub(pattern, " ", x))
 # Convert the text to lower case
 docs <- tm_map(docs, content_transformer(tolower))
@@ -39,3 +44,8 @@ wordcloud(words = d$word, freq = d$freq, min.freq = 2,
           max.words=200, random.order=FALSE, rot.per=0.1, 
           colors=brewer.pal(8, "Dark2"))
 title("Alternative")
+
+
+## Trend of methods ------------
+table=master_methods%>%merge.data.frame(authors_attributes, all.x=T) %>% group_by(Year, Method_elicitation)%>%count()%>%ungroup()%>%group_by(Method_elicitation)%>%mutate(cum_sep_len = cumsum(n)) %>% mutate(cum_sep_len=replace(cum_sep_len, Method_elicitation=="KW"&Year<2013, NA))
+ggplot(data=table, aes(x=Year, cum_sep_len, color=Method_elicitation))+geom_line() + theme_classic()

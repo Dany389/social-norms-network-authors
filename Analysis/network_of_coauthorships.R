@@ -36,6 +36,33 @@ Nodes <- data.frame(id=unique(c(unique(Edges$from),(unique(Edges$to)), unique(au
 write.csv(Edges, "edges.csv", row.names = F)
 write.csv(Nodes, "nodes.csv", row.names = F)
 
+# network evolution data -----------
+for (y in c(2013, 2015, 2018, 2020)) {
+  print(y)
+  #rm(authors_net, authors_n)
+  authors_net <- readxl::read_excel("Social Norms meta.xlsx", sheet = "ALL") %>% filter(Year<=y) %>%
+    distinct(PaperID, .keep_all = T) %>% subset.data.frame(select = c("PaperID", "Authors", "Year", "Outlet", "Published", "Game_type", "Method_elicitation")) %>%
+    mutate(New_authors = str_replace_all(Authors, ";", "--"))
+  
+  authors_n <- authors_net[grep("--", authors_net$New_authors), ] # take only co-authored papers
+  authors_n$numberoauthors <- (1+str_count(authors_n$New_authors, "--")) # compute number of coauthors
+  
+  authors_solo <- authors_net[-grep("--", authors_net$New_authors), ]
+  
+  # Create nodes and edges ----
+  # data wrangling from https://stackoverflow.com/questions/57487704/how-to-split-a-string-of-author-names-by-comma-into-a-data-frame-and-generate-an
+  SplitAuthors <- sapply(authors_n$New_authors, strsplit, split = "--", fixed = TRUE) # list of characters, each list is a paper
+  AuthorCombinations <- sapply(SplitAuthors,function(x){combn(unlist(x),m = 2)}) # compute all poss. combinats. among co-authors
+  AuthorEdges <- rapply(AuthorCombinations,unlist) # transform matrix into list
+  names(AuthorEdges) <- NULL
+  Edges <- data.frame(matrix(trimws(AuthorEdges), ncol=2, byrow=T)); colnames(Edges)=c("from","to")
+  colnames(Edges) <- c("from", "to")
+  Nodes <- data.frame(id=unique(c(unique(Edges$from),(unique(Edges$to)), unique(authors_solo$Authors))))
+  #AuthorGraph <- graph(AuthorEdges, directed = FALSE) # igraph - we input the edge list (taken two by two)
+  
+  write.csv(Edges, paste("edges_",y,".csv", sep=""), row.names = F)
+  write.csv(Nodes, paste("nodes_",y,".csv",sep=""), row.names = F)
+}
 ####################################################
 # method KW
 #l_method <- list()
