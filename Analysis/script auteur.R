@@ -10,8 +10,8 @@ rm(list=ls())
 setwd("../")
 
 # import network data
-### PROBLEM HERE =readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
-nodes <- read.csv("nodes.csv") %>% merge.data.frame(suca)
+node_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
+nodes <- read.csv("nodes.csv") %>% merge.data.frame(node_attributes)
 edges <- read.csv("edges.csv")
 AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
 
@@ -20,8 +20,9 @@ E(AuthorGraph)$weight <- 1 # any nmbr
 AuthorGraph <- igraph::simplify(AuthorGraph, remove.multiple = T, remove.loops = F, edge.attr.comb = list(weight="sum"))
 
 # plot the graph
-visIgraph(AuthorGraph, physics = FALSE, smooth = TRUE)
+plot_data=toVisNetworkData(AuthorGraph)
 
+#visIgraph(AuthorGraph, physics = FALSE, smooth = TRUE)
 #plot(AuthorGraph, vertex.label.color="black", vertex.size=2.5,
 #     vertex.label.cex=0.5, vertex.label.dist=2, vertex.color="blue" ) 
 #To differentiate between method elicitation, doesn't work
@@ -31,14 +32,20 @@ visIgraph(AuthorGraph, physics = FALSE, smooth = TRUE)
 #  visOptions(highlightNearest = list(enabled = T, hover = T), 
 #             nodesIdSelection = T) 
 
-#visNetwork(nodes, edges) %>% visIgraphLayout() %>% visNodes(size= 10)
+visNetwork(plot_data$nodes, plot_data$edges) %>% visIgraphLayout() %>% visNodes(size= 10)
 
 #for a cumulative graph, not really useful
 #plot(x=0:max(degree(AuthorGraph, mode="all")),
     # y=1-degree_distribution(AuthorGraph, cumulative=T, mode="all"),
     # pch=19, cex=1.2, col="blue", xlab = "Degree", ylab="Cumulative Frequency")
 
+
+
+
+# Network analyses
+
 #histo degree
+
 hist(degree(AuthorGraph), breaks=0:50, main="Histogram")
 
 #analyse descriptive
