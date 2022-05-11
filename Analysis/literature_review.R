@@ -11,7 +11,7 @@ setwd("../")
 # read data 
 master <- readxl::read_xlsx(path = "Social Norms meta.xlsx", sheet = "ALL")
 
-authors_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T) %>% strsplit(Id_paper_affil, split = ":")
+authors_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T) %>% separate(Id_paper_affil,sep = ":", into=c("PaperId","Other"))
 
 master_methods <- readxl::read_excel("Social Norms meta.xlsx", sheet = "ALL") %>%
   subset.data.frame(subset = Method_elicitation =="KW" | 
@@ -52,7 +52,7 @@ title("Alternative")
 table=master_methods %>% group_by(Year, Method_elicitation)%>%count()%>%ungroup()%>%group_by(Method_elicitation)%>%mutate(cum_sep_len = cumsum(n)) %>% mutate(cum_sep_len=replace(cum_sep_len, Method_elicitation=="KW"&Year<2013, NA))
 ggplot(data=table, aes(x=Year, cum_sep_len, color=Method_elicitation))+geom_line() + theme_classic()
 
-## 
-do.call(rbind, l_method) %>% group_by(id) %>% 
-  summarise(n_KW=sum(method=="KW")+sum(method=="Both"),n_BX=sum(method=="Bicchieri")+sum(method=="Both")) %>% 
-  mutate(d=(n_KW-n_BX)/(n_KW+n_BX))
+## number of papers by discipline (MISSING INFO ABOUT JOURNALS)
+
+## COLLABORATION AMONG DISCIPLINES
+authors_attributes %>% group_by(PaperId)%>%summarise(eco=sum(eco_psycho=="eco"), psycho=sum(eco_psycho=="psycho"), other=sum(!(eco_psycho%in%c("eco","psycho"))))
