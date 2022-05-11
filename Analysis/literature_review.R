@@ -55,4 +55,5 @@ ggplot(data=table, aes(x=Year, cum_sep_len, color=Method_elicitation))+geom_line
 ## number of papers by discipline (MISSING INFO ABOUT JOURNALS)
 
 ## COLLABORATION AMONG DISCIPLINES
-authors_attributes %>% group_by(PaperId)%>%summarise(eco=sum(eco_psycho=="eco"), psycho=sum(eco_psycho=="psycho"), other=sum(!(eco_psycho%in%c("eco","psycho"))))
+collaborations <- authors_attributes %>% group_by(PaperId)%>%summarise(eco=sum(eco_psycho=="eco"), psycho=sum(eco_psycho=="psycho"), other=sum(!(eco_psycho%in%c("eco","psycho"))))
+collaborations %>% 
