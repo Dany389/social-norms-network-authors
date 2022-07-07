@@ -11,7 +11,12 @@ setwd("../")
 
 # import network data -----
 node_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
-nodes <- read.csv("nodes.csv") %>% merge.data.frame(node_attributes, all.x = T)
+nodes <- read.csv("nodes.csv") %>% merge.data.frame(node_attributes, all.x = T) %>% 
+  mutate(domain = ifelse(eco_psycho %in% c("eco","environmental law & eco","law & eco"),"Eco", ifelse(eco_psycho %in% c("science","Science (ethics, biology)","computer science", "biology; maths","health","engineer","Maths/physics","medecine","neuroscience"), "Other", eco_psycho))) %>%
+  mutate(location = ifelse(loc_now %in% c("France","Germany","Switzerland","UK", "Italy","Czech Republic","Denmark","Austria", "Republic of Moldova","Austria; Denmark", "Belgium","Finland", "Ireland","Italy;UK","Norway","Poland","Slovakia","Sweden"),"Europe", 
+                           ifelse(loc_now %in% c("US", "Canada"), "North America", 
+                                  ifelse(loc_now %in% c("Australia", "Tanzania"), "Pacific",
+                                         ifelse(loc_now %in% c("China","India","Indonesia","Pakistan","Philippines","Russia","South Korea","UAE","Vietnam"),"Asia", ifelse(loc_now %in% c("Argentina", "Colombia"), "South America", "Other"))))))
 
 edges <- read.csv("edges.csv")
 AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
@@ -33,10 +38,29 @@ plot_data=toVisNetworkData(AuthorGraph)
 #  visOptions(highlightNearest = list(enabled = T, hover = T), 
 #             nodesIdSelection = T) 
 
-visNetwork(plot_data$nodes%>% 
-             mutate(value=h_index*60, 
-                    group=eco_psycho) %>% mutate(value=replace(value, is.na(value), 1)), 
-           plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout()
+net_domain <- visNetwork(plot_data$nodes%>% 
+             mutate(value=h_index*80, 
+                    group=domain) %>% mutate(value=replace(value, is.na(value), 1)), 
+           plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% 
+  visGroups(groupname = "Eco", color = "red") %>%
+  visGroups(groupname = "psycho", color = "gray") %>%
+  visGroups(groupname = "Philosophy", color = "green") %>%
+  visGroups(groupname = "political science", color = "yellow") %>%
+  visGroups(groupname = "Other", color = "blue") %>%
+  visGroups(groupname = "Sociology", color = "pink") %>%
+  visIgraphLayout() %>%visLegend(width = 0.1, position = "right", main = "Group") %>% visOptions(highlightNearest = list(enabled = T, hover = T), 
+                                                                                                 nodesIdSelection = T) 
+
+  
+htmlwidgets::saveWidget(file="net_domain.html", widget = net_domain)
+
+net_geo <- visNetwork(plot_data$nodes%>% 
+             mutate(value=h_index*80, 
+                    group=location) %>% mutate(value=replace(value, is.na(value), 1)), 
+           plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% 
+  visGroups(groupname = "Europe", color = "red") %>%
+  visGroups(groupname = "US", color = "gray") %>%
+  visIgraphLayout() %>%visLegend(width = 0.1, position = "right", main = "Group")
 
   #for a cumulative graph, not really useful
 #plot(x=0:max(degree(AuthorGraph, mode="all")),
@@ -123,7 +147,8 @@ authors_data <- readxl::read_excel("authors.xlsx", sheet = "Sheet1") %>%
 ## 2013 ----
 rm(list = ls())
 node_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
-nodes <- read.csv("nodes_2013.csv") %>% merge.data.frame(node_attributes, all.x = T)
+nodes <- read.csv("nodes_2013.csv") %>% merge.data.frame(node_attributes, all.x = T)%>% 
+  mutate(domain = ifelse(eco_psycho %in% c("eco","environmental law & eco","law & eco"),"Eco", ifelse(eco_psycho %in% c("science","Science (ethics, biology)","computer science", "biology; maths","health","engineer","Maths/physics","medecine","neuroscience"), "Other", eco_psycho)))
 
 edges <- read.csv("edges_2013.csv")
 AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
@@ -135,15 +160,26 @@ AuthorGraph <- igraph::simplify(AuthorGraph, remove.multiple = T, remove.loops =
 # plot the graph
 plot_data=toVisNetworkData(AuthorGraph)
 
-plot_2013 <- visNetwork(plot_data$nodes%>% 
+plot_2013 <- visNetwork(plot_data$nodes%>% filter(!is.na(domain)) %>%
              mutate(value=h_index*60, 
-                    group=eco_psycho) %>% mutate(value=replace(value, is.na(value), 1)), 
-           plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout()
+                    group=domain) %>% mutate(value=replace(value, is.na(value), 1)), 
+           plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout() %>%
+  visGroups(groupname = "Eco", color = "red") %>%
+  visGroups(groupname = "psycho", color = "gray") %>%
+  visGroups(groupname = "Philosophy", color = "green") %>%
+  visGroups(groupname = "political science", color = "yellow") %>%
+  visGroups(groupname = "Other", color = "blue") %>%
+  visGroups(groupname = "Sociology", color = "pink") %>%
+  visIgraphLayout() %>%visLegend(width = 0.1, position = "right", main = "Group") %>% visOptions(highlightNearest = list(enabled = T, hover = T), 
+                                                                                                 nodesIdSelection = T) 
+
+htmlwidgets::saveWidget(file="net_2013.html", widget = plot_2013)
 
 ## 2015 ----
 
 node_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
-nodes <- read.csv("nodes_2015.csv") %>% merge.data.frame(node_attributes, all.x = T)
+nodes <- read.csv("nodes_2015.csv") %>% merge.data.frame(node_attributes, all.x = T)%>%  
+  mutate(domain = ifelse(eco_psycho %in% c("eco","environmental law & eco","law & eco"),"Eco", ifelse(eco_psycho %in% c("science","Science (ethics, biology)","computer science", "biology; maths","health","engineer","Maths/physics","medecine","neuroscience"), "Other", eco_psycho)))
 
 edges <- read.csv("edges_2015.csv")
 AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
@@ -155,14 +191,27 @@ AuthorGraph <- igraph::simplify(AuthorGraph, remove.multiple = T, remove.loops =
 # plot the graph
 plot_data=toVisNetworkData(AuthorGraph)
 
-plot_2015 <- visNetwork(plot_data$nodes%>% 
+plot_2015 <- visNetwork(plot_data$nodes%>% filter(!is.na(domain)) %>%
                           mutate(value=h_index*60, 
-                                 group=eco_psycho) %>% mutate(value=replace(value, is.na(value), 1)), 
-                        plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout()
+                                 group=domain) %>% mutate(value=replace(value, is.na(value), 1)), 
+                        plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout() %>%
+  visGroups(groupname = "Eco", color = "red") %>%
+  visGroups(groupname = "psycho", color = "gray") %>%
+  visGroups(groupname = "Philosophy", color = "green") %>%
+  visGroups(groupname = "political science", color = "yellow") %>%
+  visGroups(groupname = "Other", color = "blue") %>%
+  visGroups(groupname = "Sociology", color = "pink") %>%
+  visIgraphLayout() %>%visLegend(width = 0.1, position = "right", main = "Group")%>% visOptions(highlightNearest = list(enabled = T, hover = T), 
+                                                                                                nodesIdSelection = T) 
+
+
+htmlwidgets::saveWidget(file="net_2015.html", widget = plot_2015)
+
 ## 2018 ----
 
 node_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
-nodes <- read.csv("nodes_2018.csv") %>% merge.data.frame(node_attributes, all.x = T)
+nodes <- read.csv("nodes_2018.csv") %>% merge.data.frame(node_attributes, all.x = T)%>%  
+  mutate(domain = ifelse(eco_psycho %in% c("eco","environmental law & eco","law & eco"),"Eco", ifelse(eco_psycho %in% c("science","Science (ethics, biology)","computer science", "biology; maths","health","engineer","Maths/physics","medecine","neuroscience"), "Other", eco_psycho)))
 
 edges <- read.csv("edges_2018.csv")
 AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
@@ -174,15 +223,27 @@ AuthorGraph <- igraph::simplify(AuthorGraph, remove.multiple = T, remove.loops =
 # plot the graph
 plot_data=toVisNetworkData(AuthorGraph)
 
-plot_2018 <- visNetwork(plot_data$nodes%>% 
+plot_2018 <- visNetwork(plot_data$nodes%>% filter(!is.na(domain)) %>%
                           mutate(value=h_index*60, 
-                                 group=eco_psycho) %>% mutate(value=replace(value, is.na(value), 1)), 
-                        plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout()
+                                 group=domain) %>% mutate(value=replace(value, is.na(value), 1)), 
+                        plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout()%>%
+  visGroups(groupname = "Eco", color = "red") %>%
+  visGroups(groupname = "psycho", color = "gray") %>%
+  visGroups(groupname = "Philosophy", color = "green") %>%
+  visGroups(groupname = "political science", color = "yellow") %>%
+  visGroups(groupname = "Other", color = "blue") %>%
+  visGroups(groupname = "Sociology", color = "pink") %>%
+  visIgraphLayout() %>%visLegend(width = 0.1, position = "right", main = "Group") %>% visOptions(highlightNearest = list(enabled = T, hover = T), 
+                                                                                                 nodesIdSelection = T) 
+
+
+htmlwidgets::saveWidget(file="net_2018.html", widget = plot_2018)
 
 ## 2020 ----
 #rm(list = ls())
 node_attributes <- readxl::read_xlsx("authors.xlsx") %>% distinct(id, .keep_all = T)
-nodes <- read.csv("nodes_2020.csv") %>% merge.data.frame(node_attributes, all.x = T)
+nodes <- read.csv("nodes_2020.csv") %>% merge.data.frame(node_attributes, all.x = T)%>%  
+  mutate(domain = ifelse(eco_psycho %in% c("eco","environmental law & eco","law & eco"),"Eco", ifelse(eco_psycho %in% c("science","Science (ethics, biology)","computer science", "biology; maths","health","engineer","Maths/physics","medecine","neuroscience"), "Other", eco_psycho)))
 
 edges <- read.csv("edges_2020.csv")
 AuthorGraph = graph_from_data_frame(edges, vertices = nodes, directed = F)
@@ -194,7 +255,18 @@ AuthorGraph <- igraph::simplify(AuthorGraph, remove.multiple = T, remove.loops =
 # plot the graph
 plot_data=toVisNetworkData(AuthorGraph)
 
-plot_2020 <- visNetwork(plot_data$nodes%>% 
+plot_2020 <- visNetwork(plot_data$nodes%>% filter(!is.na(domain)) %>%
                           mutate(value=h_index*60, 
-                                 group=eco_psycho) %>% mutate(value=replace(value, is.na(value), 1)), 
-                        plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout()
+                                 group=domain) %>% mutate(value=replace(value, is.na(value), 1)), 
+                        plot_data$edges%>%mutate(width=plot_data$edges$weight*2)) %>% visIgraphLayout() %>%
+  visGroups(groupname = "Eco", color = "red") %>%
+  visGroups(groupname = "psycho", color = "gray") %>%
+  visGroups(groupname = "Philosophy", color = "green") %>%
+  visGroups(groupname = "political science", color = "yellow") %>%
+  visGroups(groupname = "Other", color = "blue") %>%
+  visGroups(groupname = "Sociology", color = "pink") %>%
+  visIgraphLayout() %>%visLegend(width = 0.1, position = "right", main = "Group")%>% visOptions(highlightNearest = list(enabled = T, hover = T), 
+                                                                                                nodesIdSelection = T) 
+
+
+htmlwidgets::saveWidget(file="net_2020.html", widget = plot_2020)
